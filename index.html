@@ -165,6 +165,14 @@
   .footnote{margin-top:26px;font-size:11.5px;color:var(--grey);max-width:80ch;line-height:1.5}
   .footnote b{color:var(--red)}
 
+  .bullets{list-style:none;display:flex;flex-direction:column;gap:5px;margin-top:4px}
+  .bullets li{font-size:11.5px;line-height:1.4;color:var(--grey);padding-left:13px;position:relative}
+  .bullets li::before{content:"";position:absolute;left:0;top:6px;width:5px;height:5px;background:var(--red)}
+  .bullets li b{color:var(--ink)}
+
+  .quad{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
+  .quad .card{padding:18px 20px}
+
   table.small th{padding:8px 10px}
   table.small td{font-size:12px;padding:8px 10px;line-height:1.35}
   .minitag{display:inline-block;font-size:11px;font-weight:700;padding:3px 8px;margin:2px 3px 2px 0;border:1px solid var(--hair);border-radius:2px;background:var(--ghost);white-space:nowrap}
@@ -209,7 +217,7 @@
 <body>
 <div id="progress"></div>
 <div id="brandmark">Empório <b>Mega 100</b> · Planejamento de Mídia Paga</div>
-<div id="counter">01 / 30</div>
+<div id="counter">01 / 32</div>
 <div class="navhint">← → para navegar</div>
 
 <div class="deck" id="deck">
@@ -239,7 +247,7 @@
   <h1>O caminho desta reunião</h1>
   <div class="agenda">
     <div class="arow"><span class="an">01</span><span class="at">Mercado</span><span class="ad">onde a demanda está e como o comprador decide</span></div>
-    <div class="arow"><span class="an">02</span><span class="at">Diagnóstico</span><span class="ad">presença digital, maturidade e concorrência</span></div>
+    <div class="arow"><span class="an">02</span><span class="at">Diagnóstico</span><span class="ad">presença digital, maturidade, concorrência e SWOT</span></div>
     <div class="arow"><span class="an">03</span><span class="at">Estratégia</span><span class="ad">objetivo, personas, canais e os quatro pilares</span></div>
     <div class="arow"><span class="an">04</span><span class="at">Execução</span><span class="ad">campanhas, fases e mensuração</span></div>
     <div class="arow"><span class="an">05</span><span class="at">Resultado</span><span class="ad">projeção de cenários (investimento detalhado no plano de mídia)</span></div>
@@ -387,7 +395,90 @@
   </div>
 </section>
 
-<!-- 09 GARGALOS -->
+<!-- 09 SWOT — MATRIZ -->
+<section class="slide">
+  <p class="eyebrow">02 · Diagnóstico — SWOT</p>
+  <h1>A empresa é forte onde atua há 11 anos e frágil exatamente onde <em>nunca atuou: o digital</em></h1>
+  <div class="quad">
+    <div class="card">
+      <span class="klabel">Interno · positivo</span>
+      <h3>Forças</h3>
+      <ul class="bullets">
+        <li><b>Estrutura comercial ampla</b>: 249 representantes + 36 telemarketing + ~100 veículos adesivados</li>
+        <li>Base de <b>5.800 clientes ativos</b> com recompra semanal</li>
+        <li>Faturamento de R$ 35 mi/mês, margem 15–23%</li>
+        <li><b>Logística D+1</b> e frete grátis em todo o estado de SP</li>
+        <li>Catálogo de +1.800 itens e marcas reconhecidas (McCain, Bem Brasil, Heinz)</li>
+        <li>Pedido mínimo baixo (R$ 350) facilita a primeira compra</li>
+      </ul>
+    </div>
+    <div class="card alert">
+      <span class="klabel">Interno · negativo</span>
+      <h3>Fraquezas</h3>
+      <ul class="bullets">
+        <li><b>Zero histórico</b> de mídia paga e de tracking para a distribuidora</li>
+        <li>Site fora do jogo: formulários e contatos desativados</li>
+        <li>Instagram sem gestão, com link apontando para a <b>Mega Cestas</b></li>
+        <li>Marca mais associada às cestas do que à distribuição food service</li>
+        <li><b>SLA de 24–48h</b> para atender novos leads</li>
+        <li>Atribuição de venda depende só do início da conversa no WhatsApp</li>
+      </ul>
+    </div>
+    <div class="card tint">
+      <span class="klabel">Externo · positivo</span>
+      <h3>Oportunidades</h3>
+      <ul class="bullets">
+        <li>Demanda ativa de busca <b>não capturada</b> (distribuidora food service, fornecedor pizzaria/hamburgueria)</li>
+        <li>Nenhum concorrente comunica por nicho com condição logística explícita</li>
+        <li><b>4.000 clientes inativos</b> disponíveis para reativação</li>
+        <li>Cidades e regiões do estado ainda pouco atendidas</li>
+        <li>Produtos de marca forte funcionam como porta de entrada de baixo CAC</li>
+      </ul>
+    </div>
+    <div class="card alert">
+      <span class="klabel">Externo · negativo</span>
+      <h3>Ameaças</h3>
+      <ul class="bullets">
+        <li>Concorrentes tradicionais (<b>PMG, Delly's, Mega G</b>) com relacionamento consolidado — alguns já com e-commerce/app próprios</li>
+        <li>Resistência natural do comprador em trocar de fornecedor</li>
+        <li>Atacadão e Assaí como alternativa de autosserviço</li>
+        <li>Dependência de terceiros (criativos, aviso de ofertas) pode atrasar a resposta à demanda gerada</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footnote">Consolidação dos achados já apresentados nos slides de mercado, diagnóstico de presença digital e concorrência — nenhum item novo, apenas organizado em matriz.</p>
+</section>
+
+<!-- 10 SWOT — CRUZAMENTO -->
+<section class="slide">
+  <p class="eyebrow">02 · Diagnóstico — Cruzamento estratégico (TOWS)</p>
+  <h1>A urgência real não é vender mais — é corrigir Instagram e SLA <em>antes do primeiro clique</em></h1>
+  <div class="quad">
+    <div class="card tint">
+      <span class="klabel">Forças × Oportunidades · Ofensiva</span>
+      <h3>Usar a máquina comercial para capturar a lacuna de nicho</h3>
+      <p>A estrutura comercial pronta (36 telemarketing, entrega D+1) permite responder rápido à demanda ativa que a mídia vai captar — e usar McCain, Bem Brasil e Heinz como porta de entrada de baixo CAC para conquistar a lacuna de nicho que nenhum concorrente ocupa.</p>
+    </div>
+    <div class="card tint">
+      <span class="klabel">Forças × Ameaças · Defesa</span>
+      <h3>Reduzir o risco percebido de trocar de fornecedor</h3>
+      <p>Entrega D+1, frete grátis SP e mínimo R$ 350 são o argumento direto contra o relacionamento consolidado da concorrência tradicional (PMG, Delly's, Mega G).</p>
+    </div>
+    <div class="card">
+      <span class="klabel">Fraquezas × Oportunidades · Reforço</span>
+      <h3>Corrigir a fundação antes de aproveitar a lacuna</h3>
+      <p>Sem separar as contas da Mega Cestas e sem corrigir o Instagram, a demanda capturada pela mídia esbarra na confusão de marca — a fundação do pilar Engajamento (Fase 1) é pré-requisito.</p>
+    </div>
+    <div class="card alert">
+      <span class="klabel">Fraquezas × Ameaças · Alerta crítico</span>
+      <h3>O SLA de atendimento é a maior vulnerabilidade</h3>
+      <p>Enquanto Delly's responde por app e PMG por e-commerce, um lead nosso que espera 24–48h migra para quem atende na hora. Resolver isso vem <b>antes</b> do lançamento das campanhas.</p>
+    </div>
+  </div>
+  <p class="footnote">O cruzamento (TOWS) transforma a matriz em decisão: cada quadrante já aparece refletido nos pilares de Aquisição, Engajamento e nos Riscos e dependências mais adiante.</p>
+</section>
+
+<!-- 11 GARGALOS -->
 <section class="slide">
   <p class="eyebrow">02 · Gargalos e oportunidades</p>
   <h1>O maior risco não está na mídia: está no que acontece <em>depois do clique</em></h1>
@@ -415,7 +506,7 @@
   </div>
 </section>
 
-<!-- 10 OBJETIVO -->
+<!-- 12 OBJETIVO -->
 <section class="slide">
   <p class="eyebrow">03 · Objetivo estratégico</p>
   <h1>Validar a aquisição digital como canal <em>mensurável</em> de novos clientes food service</h1>
@@ -429,7 +520,7 @@
   <p class="footnote">A meta global de <b>10.000 clientes ativos até dez/2026</b> (~840 ativações/mês) é meta da empresa, alimentada por todos os canais. Com verba de ~R$ 3.972/mês, a mídia contribui com uma fração validada — estimada em 12–35 primeiros pedidos/mês neste primeiro ciclo.</p>
 </section>
 
-<!-- 11 PERSONA P1 -->
+<!-- 13 PERSONA P1 -->
 <section class="slide">
   <p class="eyebrow">03 · Persona 01 — hamburgueria</p>
   <h1>Rafael compra à noite, pelo celular, e não pode <em>ficar sem batata no sábado</em></h1>
@@ -456,7 +547,7 @@
   </div>
 </section>
 
-<!-- 12 PERSONA P2 -->
+<!-- 14 PERSONA P2 -->
 <section class="slide">
   <p class="eyebrow">03 · Persona 02 — pizzaria</p>
   <h1>Antônio sabe o preço do queijo de cor — e troca de fornecedor <em>quando confia</em></h1>
@@ -483,7 +574,7 @@
   </div>
 </section>
 
-<!-- 13 ESTRATÉGIA -->
+<!-- 15 ESTRATÉGIA -->
 <section class="slide">
   <p class="eyebrow">03 · Estratégia</p>
   <h1>Capturar quem já procura. Provocar quem ainda não conhece. <em>Rastrear tudo.</em></h1>
@@ -502,7 +593,7 @@
   <p class="footnote">Por que essa tese: com ticket de R$ 1.800 e compra semanal, <b>a conversão de poucos clientes já paga toda a operação de mídia</b> — o desafio não é volume, é qualificação e velocidade de atendimento.</p>
 </section>
 
-<!-- 14 CANAIS -->
+<!-- 16 CANAIS -->
 <section class="slide">
   <p class="eyebrow">03 · Seleção de canais</p>
   <h1>Dois canais contratados fazem o trabalho — o resto é <em>recomendação sinalizada</em></h1>
@@ -520,7 +611,7 @@
   </table>
 </section>
 
-<!-- 15 PILAR AQUISIÇÃO 1/3 — GOOGLE -->
+<!-- 17 PILAR AQUISIÇÃO 1/3 — GOOGLE -->
 <section class="slide">
   <p class="eyebrow">Pilar 01 · Aquisição — Google Ads · contratado</p>
   <h1>Google: duas campanhas Search para <em>colher a demanda que já existe</em></h1>
@@ -546,7 +637,7 @@
   </div>
 </section>
 
-<!-- 16 PILAR AQUISIÇÃO 2/3 — PALAVRAS-CHAVE -->
+<!-- 18 PILAR AQUISIÇÃO 2/3 — PALAVRAS-CHAVE -->
 <section class="slide">
   <p class="eyebrow">Pilar 01 · Aquisição — palavras-chave do Google</p>
   <h1>Cinco clusters de busca, priorizados por <em>intenção comercial</em></h1>
@@ -583,7 +674,7 @@
   <p class="footnote"><b>Negativas desde o dia 1:</b> <span class="minitag neg">vaga · emprego</span><span class="minitag neg">receita · como fazer</span><span class="minitag neg">curso</span><span class="minitag neg">cesta básica</span><span class="minitag neg">unidade · varejo</span><span class="minitag neg">mercado livre</span> — revisão semanal dos termos de pesquisa. Volumes e CPCs reais validados no Planejador de Palavras-Chave na Fase 1; a estrutura acima define a hipótese de partida.</p>
 </section>
 
-<!-- 17 PILAR AQUISIÇÃO 3/3 — META + GEO -->
+<!-- 19 PILAR AQUISIÇÃO 3/3 — META + GEO -->
 <section class="slide">
   <p class="eyebrow">Pilar 01 · Aquisição — Meta Ads e geossegmentação · contratado</p>
   <h1>Meta: gerar demanda <em>nicho a nicho</em>, com oferta do jornal no WhatsApp</h1>
@@ -610,7 +701,7 @@
   <p class="footnote"><b>Entregas da mídia no pilar:</b> contas novas separadas da Mega Cestas · pesquisa no Planejador de Palavras-Chave · redação de todos os anúncios · briefings criativos ao Ítalo (formato, quantidade, hipótese, CTA) · gestão diária de verba e lances.</p>
 </section>
 
-<!-- 18 PILAR ENGAJAMENTO 1/3 — FUNDAÇÃO DO PERFIL -->
+<!-- 20 PILAR ENGAJAMENTO 1/3 — FUNDAÇÃO DO PERFIL -->
 <section class="slide">
   <p class="eyebrow">Pilar 02 · Engajamento 1/3 — fundação do perfil</p>
   <h1>Antes de postar: o perfil precisa <em>confirmar o que o anúncio promete</em></h1>
@@ -638,7 +729,7 @@
   </div>
 </section>
 
-<!-- 19 PILAR ENGAJAMENTO 2/3 — LINHAS EDITORIAIS -->
+<!-- 21 PILAR ENGAJAMENTO 2/3 — LINHAS EDITORIAIS -->
 <section class="slide">
   <p class="eyebrow">Pilar 02 · Engajamento 2/3 — linhas editoriais e cadência</p>
   <h1>Três linhas editoriais, uma cadência <em>possível de sustentar</em></h1>
@@ -668,7 +759,7 @@
   <p class="footnote"><b>Regras de produção:</b> preço nunca sem regra visível · rosto e nome nos bastidores (pessoas geram 2–3× mais engajamento que produto) · legenda curta com uma pergunta · stories de oferta sempre com sticker de link. A mídia entrega o <b>briefing semanal</b> (temas, produtos, hipóteses de mensagem); produção e publicação seguem com o cliente — gestão profissional de social media é contratação adicional.</p>
 </section>
 
-<!-- 20 PILAR ENGAJAMENTO 3/3 — PROVA SOCIAL E PONTE COM A MÍDIA -->
+<!-- 22 PILAR ENGAJAMENTO 3/3 — PROVA SOCIAL E PONTE COM A MÍDIA -->
 <section class="slide">
   <p class="eyebrow">Pilar 02 · Engajamento 3/3 — prova social e ponte com a mídia</p>
   <h1>O engajamento não é vaidade: ele <em>abastece os públicos</em> da mídia paga</h1>
@@ -696,7 +787,7 @@
   </div>
 </section>
 
-<!-- 21 PILAR MONETIZAÇÃO 1/2 — JORNADA -->
+<!-- 23 PILAR MONETIZAÇÃO 1/2 — JORNADA -->
 <section class="slide">
   <p class="eyebrow">Pilar 03 · Monetização 1/2 — a jornada de conversão</p>
   <h1>Monetização: entre o clique e o pedido há <em>quatro fricções</em> — cada uma com dono</h1>
@@ -721,7 +812,7 @@
   </div>
 </section>
 
-<!-- 22 PILAR MONETIZAÇÃO 2/2 — CONVERSA QUE FECHA -->
+<!-- 24 PILAR MONETIZAÇÃO 2/2 — CONVERSA QUE FECHA -->
 <section class="slide">
   <p class="eyebrow">Pilar 03 · Monetização 2/2 — a conversa que fecha</p>
   <h1>Do "oi" ao cadastro: script, respostas prontas e <em>follow-up com hora marcada</em></h1>
@@ -745,7 +836,7 @@
   <p class="footnote"><b>Papéis:</b> a mídia desenha o script, as respostas e o fluxo de follow-up; a operação do atendimento é do cliente. O SLA acordado vira indicador acompanhado no relatório mensal.</p>
 </section>
 
-<!-- 23 PILAR RETENÇÃO 1/2 — CONTRATADO -->
+<!-- 25 PILAR RETENÇÃO 1/2 — CONTRATADO -->
 <section class="slide">
   <p class="eyebrow">Pilar 04 · Retenção 1/2 — o que a mídia entrega (contratado)</p>
   <h1>Retenção: cada cliente vale ~R$ 7.700/mês — <em>perder um custa 20 aquisições</em></h1>
@@ -767,7 +858,7 @@
   </div>
 </section>
 
-<!-- 24 PILAR RETENÇÃO 2/2 — RECOMENDAÇÕES -->
+<!-- 26 PILAR RETENÇÃO 2/2 — RECOMENDAÇÕES -->
 <section class="slide">
   <p class="eyebrow">Pilar 04 · Retenção 2/2 — recomendações à operação</p>
   <h1>Três movimentos do cliente multiplicam o efeito da mídia</h1>
@@ -791,7 +882,7 @@
   <p class="footnote">Nenhum destes movimentos está no escopo contratado — entram como recomendação priorizada. Se executados, a mídia potencializa cada um com públicos, criativos e leitura de dados.</p>
 </section>
 
-<!-- 25 PLANO DE MÍDIA -->
+<!-- 27 PLANO DE MÍDIA -->
 <section class="slide">
   <p class="eyebrow">04 · Plano de mídia</p>
   <h1>R$ 3.972/mês distribuídos onde a intenção é maior</h1>
@@ -808,7 +899,7 @@
   <p class="footnote">Google 55% · Meta 45% na largada; realocação mensal por <b>custo por lead qualificado</b>. Negativações contínuas: vagas/emprego, receitas, consumidor final, varejo, cestas básicas. Distribuição por dia/horário só muda após validação com dados de campanha + ERP.</p>
 </section>
 
-<!-- 26 EXECUÇÃO -->
+<!-- 28 EXECUÇÃO -->
 <section class="slide">
   <p class="eyebrow">04 · Plano de execução</p>
   <h1>Cinco fases em 90 dias — cada uma <em>destrava</em> a seguinte</h1>
@@ -837,7 +928,7 @@
   <p class="footnote"><b>Lógica das dependências:</b> sem contas separadas e tracking não há mensuração → sem volume não há leitura de qualidade → sem devolutiva não há otimização real → sem indicadores validados não há escala responsável. Cronograma proposto — <b>a validar nesta reunião</b>.</p>
 </section>
 
-<!-- 27 MENSURAÇÃO -->
+<!-- 29 MENSURAÇÃO -->
 <section class="slide">
   <p class="eyebrow">04 · Mensuração</p>
   <h1>O indicador não é a conversa: é o <em>caminho até a recompra</em></h1>
@@ -852,7 +943,7 @@
   <p class="footnote">Instrumentação: mensagem de WhatsApp pré-preenchida com código por campanha · planilha de devolutiva preenchida pelo telemarketing · cruzamento mensal com ERP (WinThor/Máxima). Rotina sugerida (a validar): otimização semanal interna, <b>reunião quinzenal</b> no 1º trimestre, relatório mensal consolidado.</p>
 </section>
 
-<!-- 28 RISCOS -->
+<!-- 30 RISCOS -->
 <section class="slide">
   <p class="eyebrow">04 · Riscos e dependências</p>
   <h1>Seis condições fora da mídia decidem o resultado da mídia</h1>
@@ -866,7 +957,7 @@
   </div>
 </section>
 
-<!-- 29 PROJEÇÃO -->
+<!-- 31 PROJEÇÃO -->
 <section class="slide">
   <p class="eyebrow">05 · Projeção</p>
   <h1>Três cenários possíveis — <em>estimativas</em>, não garantias</h1>
@@ -908,7 +999,7 @@
   <p class="footnote"><b>Premissas:</b> CPC Search R$ 2,50–4,50 · custo por conversa Meta R$ 8–18 · qualificação 35–50% · cadastro 40–60% dos qualificados · 1º pedido 40–60% dos cadastros · ticket R$ 1.800. Com recompra semanal e retenção de ~60%, o run-rate incremental ao fim do trimestre fica entre <b>~R$ 55 mil e R$ 150 mil/mês</b>. Validar esses números é o objetivo do ciclo V1.</p>
 </section>
 
-<!-- 30 PRÓXIMOS PASSOS -->
+<!-- 32 PRÓXIMOS PASSOS -->
 <section class="slide">
   <p class="eyebrow">Decisões desta reunião</p>
   <h1>Sete definições destravam a <em>Fase 01</em></h1>

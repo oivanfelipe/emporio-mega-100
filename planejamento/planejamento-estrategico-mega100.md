@@ -67,13 +67,29 @@
 - **Argumentos de comparação direta:** entrega D+1, frete grátis SP, mínimo R$ 350, sábados, 1 pedido/1 nota, marcas reconhecidas.
 - Fontes: dellys.com.br, pmg.com.br, megag.com.br, apetitofoods.com.br, sansulalimentos.com.br, Instagram/LinkedIn dos players e imprensa do setor. Auditoria de anúncios ativos (Ads Library + leilão de Search) é entregável da Fase 1.
 
-## 6. Objetivo estratégico
+## 6. SWOT e cruzamento estratégico
+
+### Matriz SWOT
+
+| | Positivo | Negativo |
+|---|---|---|
+| **Interno** | **Forças**<br>· Estrutura comercial ampla: 249 representantes + 36 telemarketing + ~100 veículos adesivados<br>· Base de 5.800 clientes ativos com recompra semanal<br>· Faturamento de R$ 35 mi/mês, margem 15–23%<br>· Logística D+1 e frete grátis em todo o estado de SP<br>· Catálogo de +1.800 itens e marcas reconhecidas (McCain, Bem Brasil, Heinz)<br>· Pedido mínimo baixo (R$ 350) facilita a primeira compra | **Fraquezas**<br>· Zero histórico de mídia paga e de tracking para a distribuidora<br>· Site fora do jogo: formulários e contatos desativados<br>· Instagram sem gestão, com link apontando para a Mega Cestas<br>· Marca mais associada às cestas do que à distribuição food service<br>· SLA de 24–48h para atender novos leads<br>· Atribuição de venda depende só do início da conversa no WhatsApp |
+| **Externo** | **Oportunidades**<br>· Demanda ativa de busca não capturada (distribuidora food service, fornecedor pizzaria/hamburgueria)<br>· Nenhum concorrente comunica por nicho com condição logística explícita<br>· 4.000 clientes inativos disponíveis para reativação<br>· Cidades e regiões do estado ainda pouco atendidas<br>· Produtos de marca forte funcionam como porta de entrada de baixo CAC | **Ameaças**<br>· Concorrentes tradicionais (PMG, Delly's, Mega G) com relacionamento consolidado e alguns com e-commerce/app próprios<br>· Resistência natural do comprador em trocar de fornecedor<br>· Atacadão e Assaí como alternativa de autosserviço<br>· Dependência de terceiros (designer para criativos, aviso de ofertas) pode atrasar a resposta à demanda gerada |
+
+### Cruzamento estratégico (TOWS)
+
+- **Forças × Oportunidades (ofensiva):** a estrutura comercial pronta (36 telemarketing, entrega D+1) permite responder rápido à demanda ativa que a mídia vai captar — e usar McCain, Bem Brasil e Heinz como porta de entrada de baixo CAC para conquistar a lacuna de nicho que nenhum concorrente ocupa.
+- **Forças × Ameaças (defesa):** entrega D+1 + frete grátis SP + mínimo R$ 350 reduzem o risco percebido de trocar de fornecedor — o argumento direto contra o relacionamento consolidado da concorrência tradicional.
+- **Fraquezas × Oportunidades (reforço):** sem corrigir o perfil do Instagram e sem separar as contas da Mega Cestas, a demanda capturada pela mídia esbarra na confusão de marca — a fundação do pilar Engajamento (Fase 1) é pré-requisito para aproveitar a lacuna competitiva.
+- **Fraquezas × Ameaças (alerta):** o SLA de 24–48h para novos leads é a maior vulnerabilidade — enquanto Delly's responde por app e PMG por e-commerce, um lead nosso que espera 2 dias migra para quem atende na hora. Resolver isso vem antes do lançamento das campanhas.
+
+## 7. Objetivo estratégico
 
 > **Validar a aquisição digital como canal mensurável de novos clientes food service, gerando conversas comerciais qualificadas no WhatsApp para o telemarketing — prioridade pizzarias e hamburguerias de SP — e construindo, em 90 dias, os indicadores (custo por conversa, por lead qualificado, por cadastro e por primeiro pedido) que sustentem a decisão de escala.**
 
 A meta global de 10.000 clientes ativos (≈840 ativações/mês até dez/2026) é **meta da empresa**, alimentada por todos os canais. Com verba de ~R$ 3.972/mês, o tráfego pago contribui com uma fração validada — estimada em 12–35 primeiros pedidos/mês no primeiro ciclo — e escala apenas após validação de CAC.
 
-## 7. Personas
+## 8. Personas
 
 ### P1 — "Rafael", dono de hamburgueria artesanal (28–45)
 
@@ -97,7 +113,7 @@ A meta global de 10.000 clientes ativos (≈840 ativações/mês até dez/2026) 
 - **Gatilhos que convertem:** mussarela com preço competitivo e regra visível ("a partir de X caixas"), frete grátis SP, entrega D+1, complementos no mesmo caminhão.
 - **Como falamos com ele:** Search ("distribuidora de mussarela", "fornecedor para pizzaria"); Meta com criativo de preço do queijo + regra de volume + prova de entrega; CTA "Peça a tabela da semana no WhatsApp".
 
-## 8. Estratégia
+## 9. Estratégia
 
 **Capturar demanda existente (Google Search) + gerar demanda segmentada por nicho (Meta → WhatsApp), entregando toda conversa ao telemarketing com origem rastreada, e devolutiva comercial fechando o ciclo de mensuração.**
 
@@ -105,7 +121,7 @@ Fluxo: `Anúncio → Conversa WhatsApp (origem rastreada) → Atendimento telema
 
 A economia do negócio favorece a tese: ticket R$ 1.800 com recompra semanal ⇒ um cliente ativo vale ~R$ 7.700/mês em receita. Mesmo um CAC de R$ 200–400 se paga na primeira compra (margem 15–23% sobre R$ 1.800 = R$ 270–414).
 
-## 9. Seleção de canais
+## 10. Seleção de canais
 
 | Canal | Função | Persona/etapa | Prioridade | Status |
 |---|---|---|---|---|
@@ -117,7 +133,7 @@ A economia do negócio favorece a tese: ticket R$ 1.800 com recompra semanal ⇒
 | Social orgânico | Prova social e sustentação de marca | — | — | Recomendação (não contratado) |
 | CRM / reativação da base | Retenção e reativação de inativos | — | — | Recomendação (não contratado) |
 
-## 10. Quatro pilares (detalhados)
+## 11. Quatro pilares (detalhados)
 
 ### 10.1 Aquisição (contratado)
 
@@ -181,7 +197,7 @@ Jornada com donos definidos: `1. Criativo com regra completa (Mídia+Ítalo) →
 - **Recomendação (operação):** rotina de recompra assistida — telemarketing com gatilho semanal por segmento no dia de reposição de cada nicho (pizzaria repõe queijo no início da semana; hamburgueria fecha kit antes do fim de semana).
 - **Recomendação (próximo ciclo):** lista de transmissão oficial do jornal com opt-in; CRM leve conectando WhatsApp → ERP para régua de recompra e alerta de cliente sem pedido há 3+ semanas.
 
-## 11. Estrutura de campanhas e verba (R$ 3.972/mês ≈ R$ 132/dia)
+## 12. Estrutura de campanhas e verba (R$ 3.972/mês ≈ R$ 132/dia)
 
 **Google Ads — R$ 2.180/mês (55%)**
 - C1 · Search "Distribuidora Food Service" (grupos: genérico / pizzaria / hamburgueria) — R$ 1.300
@@ -195,7 +211,7 @@ Jornada com donos definidos: `1. Criativo com regra completa (Mídia+Ítalo) →
 
 Distribuição inicial; realocação mensal por custo por lead qualificado. Aumento de verba só como cenário de escala validado e aprovado.
 
-## 12. Plano de execução (90 dias — proposta a validar com o cliente)
+## 13. Plano de execução (90 dias — proposta a validar com o cliente)
 
 - **Fase 1 · Estruturar (sem. 1–2):** contas novas Google/Meta/BM separadas da Mega Cestas; GA4 + GTM + conversões; número oficial de WhatsApp com mensagens rastreadas por campanha; kit inicial de criativos com Ítalo; validação de ofertas com Victor; definição de SLA e planilha de devolutiva com o telemarketing.
 - **Fase 2 · Adquirir (sem. 3–6):** lançamento C1–C4; pesquisa de termos e negativação ativa; primeiras leituras de custo por conversa.
@@ -205,7 +221,7 @@ Distribuição inicial; realocação mensal por custo por lead qualificado. Aume
 
 *Dependências que ordenam as fases: sem contas separadas e rastreamento não há mensuração (F1 antes de tudo); sem volume de conversas não há leitura de qualidade (F2 antes de F3); sem devolutiva comercial não há otimização real (F3 antes de F4); sem indicadores validados não há escala responsável (F4 antes de F5).*
 
-## 13. Mensuração
+## 14. Mensuração
 
 Funil: `Investimento → Conversas iniciadas → Leads qualificados → Cadastros → 1º pedido → Recompra`
 
@@ -214,7 +230,7 @@ Funil: `Investimento → Conversas iniciadas → Leads qualificados → Cadastro
 - Rastreio: mensagem inicial pré-preenchida com código por campanha; planilha compartilhada preenchida pelo telemarketing; cruzamento mensal com ERP (WinThor/Máxima).
 - Rotina sugerida (a validar): otimização semanal interna; reunião quinzenal no 1º trimestre; relatório mensal consolidado.
 
-## 14. Projeção (cenários — estimativas, não garantias)
+## 15. Projeção (cenários — estimativas, não garantias)
 
 Premissas: verba R$ 3.972/mês; CPC Search R$ 2,50–4,50; custo por conversa Meta R$ 8–18; qualificação 35–50%; cadastro 40–60% dos qualificados; 1º pedido 40–60% dos cadastros; ticket R$ 1.800.
 
@@ -226,12 +242,12 @@ Premissas: verba R$ 3.972/mês; CPC Search R$ 2,50–4,50; custo por conversa Me
 
 Com recompra semanal (≈4,3 pedidos/mês) e retenção de 60% dos novos clientes, o run-rate incremental ao fim do trimestre fica entre **~R$ 55 mil e R$ 150 mil/mês** — cada cliente retido vale ~R$ 7.700/mês. A validação real desses números é exatamente o objetivo do primeiro ciclo (V1).
 
-## 15. Investimento
+## 16. Investimento
 
 - Teto mensal: **R$ 10.000** = fee R$ 6.027,59 + mídia R$ 3.972,41 (Google 55% / Meta 45% inicial).
 - O planejamento não ultrapassa esse valor. Escala aparece apenas como cenário futuro condicionado à validação dos indicadores e aprovação do cliente.
 
-## 16. Riscos e dependências (registrados, fora do escopo da agência)
+## 17. Riscos e dependências (registrados, fora do escopo da agência)
 
 1. **SLA de atendimento a novos leads (crítico):** 24–48h para atender/cadastrar novos contatos derruba conversão de mídia; leads digitais esfriam em horas.
 2. **Atribuição frágil:** venda reconhecida só pelo início da conversa no WhatsApp; sem devolutiva comercial não há CAC real.
@@ -240,7 +256,7 @@ Com recompra semanal (≈4,3 pedidos/mês) e retenção de 60% dos novos cliente
 5. **Site inutilizável como destino:** WhatsApp é o único ponto de conversão até revisão de segurança.
 6. **Separação de marca:** contas e públicos 100% apartados da Mega Cestas.
 
-## 17. Pendências a confirmar com o cliente
+## 18. Pendências a confirmar com o cliente
 
 - Lista completa de produtos/preços para pizzarias; curva ABC atualizada.
 - Cidades/regiões prioritárias e restrições logísticas.
