@@ -105,20 +105,6 @@ Fluxo: `Anúncio → Conversa WhatsApp (origem rastreada) → Atendimento telema
 
 A economia do negócio favorece a tese: ticket R$ 1.800 com recompra semanal ⇒ um cliente ativo vale ~R$ 7.700/mês em receita. Mesmo um CAC de R$ 200–400 se paga na primeira compra (margem 15–23% sobre R$ 1.800 = R$ 270–414).
 
-### 8.1 Estratégia de palavras-chave (5 clusters)
-
-| Cluster | Termos-exemplo | Intenção · persona | Papel |
-|---|---|---|---|
-| **1 · Categoria** (prioridade máxima) | distribuidora food service · atacadista food service · distribuidora de alimentos para restaurante · distribuidora de alimentos sp | Transacional · P1+P2 | Fundo de funil puro — C1, correspondência exata + frase |
-| **2 · Nicho** (prioridade máxima) | fornecedor para pizzaria · distribuidora para pizzaria · fornecedor para hamburgueria · distribuidora para hamburgueria | Transacional · P1 ou P2 | Grupos separados por nicho em C1, com anúncio e oferta próprios |
-| **3 · Marca** | batata mccain atacado · onde comprar batata mccain · distribuidor bem brasil · fornecedor heinz · pão de hambúrguer artbread | Comercial · P1 | Porta de entrada por produto reconhecido (C2): CPC menor, intenção específica |
-| **4 · Produto** | mussarela atacado preço · distribuidora de mussarela · cheddar fatiado atacado · calabresa atacado · pão de hambúrguer atacado | Comercial · P2+P1 | Captura a dor de custo em C2 — anúncio responde com regra de volume clara |
-| **5 · Local** | distribuidora de alimentos em campinas · fornecedor food service sorocaba · distribuidora litoral sp | Transacional · regiões-alvo | Ativado por onda conforme regiões prioritárias do cliente |
-
-- **Negativas desde o dia 1:** vaga/emprego, receita/como fazer, curso, cesta básica, unidade/varejo, mercado livre. Revisão semanal dos termos de pesquisa.
-- **Correspondência:** exata + frase (sem ampla na largada; sem DSA enquanto o site não for destino confiável).
-- **Validação:** volumes e CPCs reais no Planejador de Palavras-Chave na Fase 1 — os clusters acima são a hipótese de partida.
-
 ## 9. Seleção de canais
 
 | Canal | Função | Persona/etapa | Prioridade | Status |
@@ -140,15 +126,29 @@ A economia do negócio favorece a tese: ticket R$ 1.800 com recompra semanal ⇒
 - **Geosegmentação:** estado inteiro na largada; ondas de prioridade para cidades pouco atendidas (lista do cliente) com ajuste de lance por região + cluster local de Search ativado por onda.
 - **Entregas da mídia:** estrutura de contas nova separada da Mega Cestas, pesquisa de palavras-chave, redação dos anúncios, briefings criativos ao Ítalo (formatos, quantidade, hipóteses, CTA), gestão diária de verba e lances.
 
+**Estratégia de palavras-chave do Google (5 clusters):**
+
+| Cluster | Termos-exemplo | Intenção · persona | Papel |
+|---|---|---|---|
+| **1 · Categoria** (prioridade máxima) | distribuidora food service · atacadista food service · distribuidora de alimentos para restaurante · distribuidora de alimentos sp | Transacional · P1+P2 | Fundo de funil puro — C1, correspondência exata + frase |
+| **2 · Nicho** (prioridade máxima) | fornecedor para pizzaria · distribuidora para pizzaria · fornecedor para hamburgueria · distribuidora para hamburgueria | Transacional · P1 ou P2 | Grupos separados por nicho em C1, com anúncio e oferta próprios |
+| **3 · Marca** | batata mccain atacado · onde comprar batata mccain · distribuidor bem brasil · fornecedor heinz · pão de hambúrguer artbread | Comercial · P1 | Porta de entrada por produto reconhecido (C2): CPC menor, intenção específica |
+| **4 · Produto** | mussarela atacado preço · distribuidora de mussarela · cheddar fatiado atacado · calabresa atacado · pão de hambúrguer atacado | Comercial · P2+P1 | Captura a dor de custo em C2 — anúncio responde com regra de volume clara |
+| **5 · Local** | distribuidora de alimentos em campinas · fornecedor food service sorocaba · distribuidora litoral sp | Transacional · regiões-alvo | Ativado por onda conforme regiões prioritárias do cliente |
+
+- **Negativas desde o dia 1:** vaga/emprego, receita/como fazer, curso, cesta básica, unidade/varejo, mercado livre. Revisão semanal dos termos de pesquisa.
+- **Correspondência:** exata + frase (sem ampla na largada; sem DSA enquanto o site não for destino confiável).
+- **Validação:** volumes e CPCs reais no Planejador de Palavras-Chave na Fase 1 — os clusters acima são a hipótese de partida.
+
 ### 10.2 Engajamento (social orgânico não contratado — direcionamento detalhado + remarketing contratado)
 
 **a) Fundação do perfil (cliente, semana 1, com nosso roteiro — pré-requisito do lançamento das campanhas):**
 - Bio reposicionada em uma linha: "Distribuidora food service · todo o estado de SP · entrega em 24h · pedido mínimo R$ 350". Nome de exibição com "distribuidora" (busca interna do IG); categoria de perfil atacadista/distribuidora.
 - Link direto para o WhatsApp comercial com código de origem "perfil" — substituindo o Linktree de cestas (que permanece na conta da Mega Cestas). Botões de contato ativos: WhatsApp, telefone, endereço.
 - Destaques fixos: **Como Comprar** (cadastro → pedido → entrega), **Ofertas da Semana** (jornal), **Cobertura e Entrega** (mapa SP, prazos, frete grátis), **Marcas** (McCain, Bem Brasil, Heinz, Artbread).
-- Templates visuais (Ítalo): grid de oferta, card de prova, capas de destaque — identidade separada da Mega Cestas.
+- Templates visuais: grid de oferta, card de prova, capas de destaque — identidade separada da Mega Cestas.
 
-**b) Linhas editoriais e cadência (Ítalo produz e publica; mídia entrega briefing semanal):**
+**b) Linhas editoriais e cadência (produção e publicação do cliente; mídia entrega briefing semanal):**
 
 | Linha | O que mostra | Formato · cadência | Função |
 |---|---|---|---|
@@ -162,7 +162,7 @@ Regras de produção: preço nunca sem regra visível · rosto e nome nos bastid
 - **Programa de depoimentos:** 5/mês coletados pelos representantes com roteiro de 3 perguntas e autorização de uso; formato card + vídeo curto → criativo de remarketing e conteúdo do perfil.
 - **UGC:** repost de clientes que marcam a distribuidora (com autorização); directs/comentários respondidos em até 4h úteis redirecionando ao WhatsApp comercial.
 - **Públicos (contratado, mídia):** envolvimento com perfil 90d + video views 75% + envolvimento com anúncios → remarketing C5 e base de lookalikes futuros.
-- **Métricas do pilar (leitura mensal nossa):** cliques no link do perfil, conversas originadas do perfil, salvamentos/compartilhamentos da linha Nicho, tamanho dos públicos de engajamento. Seguidores não são meta do contrato (expectativa registrada).
+- **Métricas do pilar (leitura mensal nossa):** cliques no link do perfil, conversas originadas do perfil, salvamentos/compartilhamentos da linha Nicho, tamanho dos públicos de engajamento.
 
 ### 10.3 Monetização (núcleo)
 
