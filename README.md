@@ -5,7 +5,7 @@ Planejamento construído com a metodologia V4 (contexto → diagnóstico → obj
 ## Conteúdo
 
 - **[`planejamento/planejamento-estrategico-mega100.md`](planejamento/planejamento-estrategico-mega100.md)** — documento completo do planejamento (17 seções): diagnóstico, maturidade V1, concorrentes, personas, estratégia, estrutura de campanhas e verba, plano de execução em 5 fases, mensuração, projeção de cenários, investimento, riscos e pendências.
-- **[`planejamento/apresentacao-mega100.html`](planejamento/apresentacao-mega100.html)** — apresentação executiva em HTML (21 slides, identidade V4: fundo branco, preto e vermelho). Abrir no navegador; navegação por setas do teclado, clique nas bordas ou swipe.
+- **[`index.html`](index.html)** — apresentação executiva em HTML (30 telas, identidade V4: fundo branco, preto e vermelho), na raiz para publicação no Vercel. Navegação por setas do teclado, clique nas bordas ou swipe.
 
 ## Resumo executivo
 
