@@ -45,11 +45,27 @@
 
 ## 5. Concorrentes
 
-Diretos citados: PMG, Mega G, Apetito, BID, Delly's, Sansul, Fênix, Multifoods. Indiretos: Atacadão, Assaí, atacarejos regionais, compra direta de fabricantes, marketplaces B2B.
+### Mapa competitivo (verificação pública ago/2026)
 
-- **Forças deles:** tempo de mercado, relacionamentos antigos, lembrança de marca, base resistente à troca.
-- **Onde competimos:** entrega D+1, frete grátis estadual, pedido mínimo R$ 350, variedade em um único pedido/nota, atendimento sábado, marcas reconhecidas.
-- **Oportunidade aberta:** pouca ou nenhuma comunicação digital segmentada por nicho (pizzaria/hamburgueria) com condições logísticas claras. É o espaço de diferenciação da mídia.
+| Concorrente | Porte · desde | Clientes que atende | Canais e ações digitais observadas |
+|---|---|---|---|
+| **Delly's** | Nacional, 12 estados · ~190 mil clientes · +20 mil itens | Restaurantes, padarias, confeitarias, hotéis, supermercados | E-commerce + app próprio + televendas 0800; Instagram ativo com ofertas e receitas; parcerias de marca (Unilever, McCain, Heinz, Seara, Nestlé) |
+| **PMG** | Líder em SP · desde 1995 · +20 mil estabelecimentos · 280 veículos refrigerados | Pizzarias, padarias, churrascarias, bares, cozinhas industriais, hospitais | Loja física (Santo Amaro) + e-commerce; Instagram oficial ativo; rede de representantes com sites regionais próprios fazendo SEO local |
+| **Mega G** | SP, MG, RJ · desde 2005 · ~20 mil clientes · 250 veículos · 600 mil entregas/ano | Pizzarias, padarias, churrascarias, hotéis, restaurantes, mercados | Site com catálogo; private label para pizzarias e padarias; presença social moderada |
+| **Apetito Foods** | SP capital · +10 anos | Food service com foco em proteínas/carnes | Instagram e Facebook ativos com ofertas; comunicação centrada em preço |
+| **Sansul** | SP | Food service geral | Posicionamento de curadoria e atendimento consultivo; presença digital discreta |
+| **Multifoods** | SP · desde 1983 | Food service com foco em carnes | Presença digital mínima; força no relacionamento tradicional |
+| **BID · Fênix** | citados pelo cliente | — | Sem presença digital relevante localizada — mapear na Meta Ads Library na Fase 1 |
+| Indiretos: **Atacadão · Assaí** | nacionais | Autosserviço (o dono se desloca) | Mídia massiva de varejo, sem atendimento food service dedicado |
+
+### O que fazem, o que aprendemos, onde nos diferenciamos
+
+- **Playbook dos líderes:** Delly's aposta em jornada multicanal (app + e-commerce + 0800) e conteúdo recorrente de ofertas; PMG constrói SEO local via rede de representantes com sites próprios; Mega G fideliza pizzarias/padarias com marca própria.
+- **Onde não competimos agora:** e-commerce, app e catálogo de 20 mil itens exigem investimento fora do escopo. Não disputamos autosserviço digital neste ciclo — disputamos a conversa comercial.
+- **Lacuna aberta:** nenhum player comunica de forma dedicada para pizzaria e hamburgueria com regras claras de preço, mínimo, frete e prazo no anúncio. A comunicação deles é genérica ("tudo para food service").
+- **Consequência estratégica:** enquanto os líderes empurram o comprador para plataformas com cadastro e jornada longa, encurtamos o caminho: anúncio com regra completa → WhatsApp → atendimento humano em minutos — a vantagem dos 36 telemarketing.
+- **Argumentos de comparação direta:** entrega D+1, frete grátis SP, mínimo R$ 350, sábados, 1 pedido/1 nota, marcas reconhecidas.
+- Fontes: dellys.com.br, pmg.com.br, megag.com.br, apetitofoods.com.br, sansulalimentos.com.br, Instagram/LinkedIn dos players e imprensa do setor. Auditoria de anúncios ativos (Ads Library + leilão de Search) é entregável da Fase 1.
 
 ## 6. Objetivo estratégico
 
@@ -59,17 +75,27 @@ A meta global de 10.000 clientes ativos (≈840 ativações/mês até dez/2026) 
 
 ## 7. Personas
 
-**P1 — Dono de hamburgueria artesanal (28–45)**
-- Comportamento: compra semanal, decide no WhatsApp, opera com margem apertada e pouco tempo.
-- Dores: ruptura de insumo no fim de semana; vários fornecedores para fechar o cardápio; imprevisibilidade de entrega.
-- Objeções: já tem fornecedor; medo de atraso; desconhece a Mega 100.
-- Gatilhos: batata McCain/Bem Brasil, pão Artbread, cheddar, molhos Heinz com preço claro + entrega D+1 + pedido mínimo R$ 350 + tudo em um pedido.
+### P1 — "Rafael", dono de hamburgueria artesanal (28–45)
 
-**P2 — Dono/comprador de pizzaria (35–60)**
-- Comportamento: alto consumo recorrente de mussarela; monitora preço do queijo semanalmente; fiel ao fornecedor até falhar.
-- Dores: variação de preço/qualidade da mussarela; falta de previsibilidade; frete e mínimos altos dos concorrentes.
-- Objeções: risco de trocar de fornecedor; dúvida se atendem sua cidade; regras de preço pouco claras.
-- Gatilhos: mussarela com preço competitivo + frete grátis SP + entrega rápida + calabresa/molhos/embalagens no mesmo pedido.
+- **Perfil/comportamento:** opera a casa e decide as compras sozinho; resolve tudo pelo WhatsApp, geralmente após o fechamento. Variações: artesanal, dark kitchen, rede local. Compra semanal, ticket R$ 800–2.500. Itens-chave: batata, pão, cheddar, molhos, proteínas.
+- **Dores:** ruptura de insumo na sexta/sábado (pico); 3–4 fornecedores para fechar o cardápio; entregas que atrasam sem aviso; tempo perdido cotando item a item.
+- **Desejos:** um fornecedor que resolva o cardápio inteiro, com preço previsível, marcas que o cliente final reconhece (McCain, Heinz) e reposição rápida.
+- **Objeções:** "já tenho fornecedor e funciona"; "e se atrasar no meu pico?"; "nunca ouvi falar da Mega 100"; "o mínimo deve ser alto pro meu tamanho".
+- **Jornada/consumo de informação:** gatilho (preço subiu ou fornecedor falhou) → pergunta em grupos de WhatsApp de donos → pesquisa marca/produto no Google → compara 2–3 cotações → testa com pedido pequeno. Segue perfis de food service no Instagram.
+- **Fatores de decisão:** 1º confiabilidade de entrega · 2º custo total do pedido · 3º marcas reconhecidas · 4º facilidade de pedir sem sair da operação.
+- **Gatilhos que convertem:** kit hamburgueria com preço fechado (batata + pão Artbread + cheddar + molhos Heinz), entrega D+1, mínimo R$ 350.
+- **Como falamos com ele:** Search ("fornecedor para hamburgueria", "batata mccain atacado"); Meta com criativo de kit e regras completas, tom de dono para dono; CTA "Chama no WhatsApp e recebe amanhã".
+
+### P2 — "Antônio", dono/comprador de pizzaria (35–60)
+
+- **Perfil/comportamento:** negócio familiar ou rede local de delivery; a compra é decisão de margem — a mussarela é o maior custo. Compra semanal, ticket R$ 1.500–4.000. Itens-chave: mussarela, calabresa, molhos, farinha, embalagens. Variações: bairro, premium, delivery, rede local.
+- **Dores:** preço da mussarela varia toda semana e come a margem; qualidade oscila entre lotes; mínimos e fretes altos; medo de ficar sem queijo no fim de semana.
+- **Desejos:** previsibilidade — preço estável, qualidade constante, entrega no dia certo; fechar queijo + calabresa + molho + embalagem em um pedido e uma nota.
+- **Objeções:** "meu fornecedor me atende há 10 anos"; "atendem minha cidade?"; "esse preço vale para quantas caixas?"; "qual a marca desse queijo?".
+- **Jornada/consumo de informação:** gatilho (reajuste do queijo ou falha de entrega) → liga para 2–3 distribuidores → pede tabela no WhatsApp → compara preço/kg e condição de volume → testa em semana de movimento médio. Menos digital que P1: a ligação ainda decide.
+- **Fatores de decisão:** 1º preço/kg da mussarela com regra de volume clara · 2º constância de qualidade · 3º pontualidade · 4º completar o pedido no mesmo fornecedor.
+- **Gatilhos que convertem:** mussarela com preço competitivo e regra visível ("a partir de X caixas"), frete grátis SP, entrega D+1, complementos no mesmo caminhão.
+- **Como falamos com ele:** Search ("distribuidora de mussarela", "fornecedor para pizzaria"); Meta com criativo de preço do queijo + regra de volume + prova de entrega; CTA "Peça a tabela da semana no WhatsApp".
 
 ## 8. Estratégia
 
@@ -78,6 +104,20 @@ A meta global de 10.000 clientes ativos (≈840 ativações/mês até dez/2026) 
 Fluxo: `Anúncio → Conversa WhatsApp (origem rastreada) → Atendimento telemarketing → Cadastro → 1º pedido → Recompra semanal`
 
 A economia do negócio favorece a tese: ticket R$ 1.800 com recompra semanal ⇒ um cliente ativo vale ~R$ 7.700/mês em receita. Mesmo um CAC de R$ 200–400 se paga na primeira compra (margem 15–23% sobre R$ 1.800 = R$ 270–414).
+
+### 8.1 Estratégia de palavras-chave (5 clusters)
+
+| Cluster | Termos-exemplo | Intenção · persona | Papel |
+|---|---|---|---|
+| **1 · Categoria** (prioridade máxima) | distribuidora food service · atacadista food service · distribuidora de alimentos para restaurante · distribuidora de alimentos sp | Transacional · P1+P2 | Fundo de funil puro — C1, correspondência exata + frase |
+| **2 · Nicho** (prioridade máxima) | fornecedor para pizzaria · distribuidora para pizzaria · fornecedor para hamburgueria · distribuidora para hamburgueria | Transacional · P1 ou P2 | Grupos separados por nicho em C1, com anúncio e oferta próprios |
+| **3 · Marca** | batata mccain atacado · onde comprar batata mccain · distribuidor bem brasil · fornecedor heinz · pão de hambúrguer artbread | Comercial · P1 | Porta de entrada por produto reconhecido (C2): CPC menor, intenção específica |
+| **4 · Produto** | mussarela atacado preço · distribuidora de mussarela · cheddar fatiado atacado · calabresa atacado · pão de hambúrguer atacado | Comercial · P2+P1 | Captura a dor de custo em C2 — anúncio responde com regra de volume clara |
+| **5 · Local** | distribuidora de alimentos em campinas · fornecedor food service sorocaba · distribuidora litoral sp | Transacional · regiões-alvo | Ativado por onda conforme regiões prioritárias do cliente |
+
+- **Negativas desde o dia 1:** vaga/emprego, receita/como fazer, curso, cesta básica, unidade/varejo, mercado livre. Revisão semanal dos termos de pesquisa.
+- **Correspondência:** exata + frase (sem ampla na largada; sem DSA enquanto o site não for destino confiável).
+- **Validação:** volumes e CPCs reais no Planejador de Palavras-Chave na Fase 1 — os clusters acima são a hipótese de partida.
 
 ## 9. Seleção de canais
 
@@ -91,15 +131,38 @@ A economia do negócio favorece a tese: ticket R$ 1.800 com recompra semanal ⇒
 | Social orgânico | Prova social e sustentação de marca | — | — | Recomendação (não contratado) |
 | CRM / reativação da base | Retenção e reativação de inativos | — | — | Recomendação (não contratado) |
 
-## 10. Quatro pilares
+## 10. Quatro pilares (detalhados)
 
-**Aquisição (contratado)** — Google Search em 2 frentes (categoria + marcas); Meta CTWA segmentado hamburgueria/pizzaria com ofertas do jornal; geosegmentação SP com prioridade para regiões pouco atendidas (lista a receber do cliente).
+### 10.1 Aquisição (contratado)
 
-**Engajamento (não contratado — recomendações)** — provas sociais (depoimentos de clientes, bastidores de logística/frota), conteúdo de nicho (custo por porção, dicas de operação), reels de ofertas produzidos pelo Ítalo com direcionamento da mídia. Instagram deve ao menos refletir o posicionamento distribuidora (bio, destaques, link correto — hoje o Linktree é o de cestas).
+- **Google Ads — 2 campanhas Search:** C1 Categoria/Nicho (grupos: genérico, pizzaria, hamburgueria) e C2 Marcas/Produtos (McCain, Bem Brasil, Heinz, mussarela, cheddar, pão). Correspondência exata + frase; anúncios RSA com condição logística no título; extensões de chamada e local. Rotina: revisão semanal dos termos de pesquisa, negativação contínua, migração para CPA-alvo após ~30 conversões.
+- **Meta Ads — 2 campanhas CTWA por nicho:** C3 Hamburguerias (kit batata + pão + cheddar + molhos) e C4 Pizzarias (mussarela como isca). Segmentação: interesses de negócio food service + comportamento de pequeno empresário, geo SP. Formatos 1:1, 4:5, 9:16 (feed, stories, reels) produzidos pelo Ítalo com briefing semanal. Rotina: 3 variações de criativo por campanha, teste A/B quinzenal, oferta renovada com o jornal.
+- **Geosegmentação:** estado inteiro na largada; ondas de prioridade para cidades pouco atendidas (lista do cliente) com ajuste de lance por região + cluster local de Search ativado por onda.
+- **Entregas da mídia:** estrutura de contas nova separada da Mega Cestas, pesquisa de palavras-chave, redação dos anúncios, briefings criativos ao Ítalo (formatos, quantidade, hipóteses, CTA), gestão diária de verba e lances.
 
-**Monetização (núcleo)** — jornada `Criativo → WhatsApp → Oferta → Cadastro → Pedido`. Toda oferta com regras completas (produto, marca, apresentação, preço, mínimo, validade, estoque, região, "a partir de X caixas"). Mensagem inicial do WhatsApp pré-preenchida com código de origem (campanha/segmento). Redução de fricção: resposta-padrão de primeiras perguntas (atende minha cidade? qual o mínimo? frete?) e SLA de atendimento.
+### 10.2 Engajamento (social orgânico não contratado — direcionamento + remarketing contratado)
 
-**Retenção (não contratado — recomendações)** — remarketing para conversas sem pedido; reativação dos 4.000 inativos via públicos personalizados (condicionada a LGPD/base legal e envio seguro); rotina de recompra via telemarketing; futura régua de CRM.
+- **Correção imediata (cliente, semana 1):** bio do Instagram reposicionada (distribuidora food service SP · entrega D+1 · mínimo R$ 350), link para o WhatsApp comercial (não o Linktree de cestas), destaques: Como Comprar, Ofertas da Semana, Entrega.
+- **3 linhas editoriais (Ítalo, com nosso briefing):** Prova (entregas reais, frota, bastidores do CD) · Oferta (jornal da semana adaptado a feed/stories) · Nicho (custo por porção, rendimento por caixa).
+- **Remarketing (mídia, contratado):** públicos de envolvimento com perfil/anúncios e visualização de vídeo alimentam C5; depoimentos de clientes (levantados com representantes) viram criativo de prova social.
+- **Papéis:** mídia entrega briefing, calendário de necessidades e leitura de desempenho; produção/publicação orgânica com o cliente. Gestão profissional de social media é contratação adicional.
+
+### 10.3 Monetização (núcleo)
+
+Jornada com donos definidos: `1. Criativo com regra completa (Mídia+Ítalo) → 2. WhatsApp com código de origem (Mídia) → 3. Atendimento rápido com script de qualificação (Telemarketing) → 4. Cadastro sem atrito (Cliente)`.
+
+- Toda oferta com regras completas: produto, marca, apresentação, preço, mínimo, validade, estoque, região, "a partir de X caixas". Preço nunca sem regra visível.
+- Árvore de respostas-padrão para as 3 perguntas que travam conversão: cidade/cobertura, mínimo, prazo/frete.
+- Script de qualificação: segmento, cidade, volume semanal, fornecedor atual, produto de interesse.
+- Cadastro: checklist de documentos na conversa, aviso de prazo (24–48h), follow-up em 24h.
+- Construção na Fase 1: árvore de respostas com o telemarketing, calendário semanal de ofertas com Victor, acordo de devolutiva (lead → cadastro → pedido → valor).
+
+### 10.4 Retenção (remarketing contratado + recomendações)
+
+- **Contratado (mídia):** C5 remarketing de recuperação — conversas sem pedido e cadastros sem compra reimpactados com oferta da semana + prova social; janelas 7/30 dias, frequência controlada.
+- **Recomendação (LGPD):** reativação dos 4.000 inativos via público personalizado (upload seguro + base legal) com oferta de retorno; espelho lookalike para aquisição.
+- **Recomendação (operação):** rotina de recompra assistida — telemarketing com gatilho semanal por segmento no dia de reposição de cada nicho (pizzaria repõe queijo no início da semana; hamburgueria fecha kit antes do fim de semana).
+- **Recomendação (próximo ciclo):** lista de transmissão oficial do jornal com opt-in; CRM leve conectando WhatsApp → ERP para régua de recompra e alerta de cliente sem pedido há 3+ semanas.
 
 ## 11. Estrutura de campanhas e verba (R$ 3.972/mês ≈ R$ 132/dia)
 
