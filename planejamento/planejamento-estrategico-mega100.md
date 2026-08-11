@@ -140,12 +140,29 @@ A economia do negócio favorece a tese: ticket R$ 1.800 com recompra semanal ⇒
 - **Geosegmentação:** estado inteiro na largada; ondas de prioridade para cidades pouco atendidas (lista do cliente) com ajuste de lance por região + cluster local de Search ativado por onda.
 - **Entregas da mídia:** estrutura de contas nova separada da Mega Cestas, pesquisa de palavras-chave, redação dos anúncios, briefings criativos ao Ítalo (formatos, quantidade, hipóteses, CTA), gestão diária de verba e lances.
 
-### 10.2 Engajamento (social orgânico não contratado — direcionamento + remarketing contratado)
+### 10.2 Engajamento (social orgânico não contratado — direcionamento detalhado + remarketing contratado)
 
-- **Correção imediata (cliente, semana 1):** bio do Instagram reposicionada (distribuidora food service SP · entrega D+1 · mínimo R$ 350), link para o WhatsApp comercial (não o Linktree de cestas), destaques: Como Comprar, Ofertas da Semana, Entrega.
-- **3 linhas editoriais (Ítalo, com nosso briefing):** Prova (entregas reais, frota, bastidores do CD) · Oferta (jornal da semana adaptado a feed/stories) · Nicho (custo por porção, rendimento por caixa).
-- **Remarketing (mídia, contratado):** públicos de envolvimento com perfil/anúncios e visualização de vídeo alimentam C5; depoimentos de clientes (levantados com representantes) viram criativo de prova social.
-- **Papéis:** mídia entrega briefing, calendário de necessidades e leitura de desempenho; produção/publicação orgânica com o cliente. Gestão profissional de social media é contratação adicional.
+**a) Fundação do perfil (cliente, semana 1, com nosso roteiro — pré-requisito do lançamento das campanhas):**
+- Bio reposicionada em uma linha: "Distribuidora food service · todo o estado de SP · entrega em 24h · pedido mínimo R$ 350". Nome de exibição com "distribuidora" (busca interna do IG); categoria de perfil atacadista/distribuidora.
+- Link direto para o WhatsApp comercial com código de origem "perfil" — substituindo o Linktree de cestas (que permanece na conta da Mega Cestas). Botões de contato ativos: WhatsApp, telefone, endereço.
+- Destaques fixos: **Como Comprar** (cadastro → pedido → entrega), **Ofertas da Semana** (jornal), **Cobertura e Entrega** (mapa SP, prazos, frete grátis), **Marcas** (McCain, Bem Brasil, Heinz, Artbread).
+- Templates visuais (Ítalo): grid de oferta, card de prova, capas de destaque — identidade separada da Mega Cestas.
+
+**b) Linhas editoriais e cadência (Ítalo produz e publica; mídia entrega briefing semanal):**
+
+| Linha | O que mostra | Formato · cadência | Função |
+|---|---|---|---|
+| **PROVA** | Entregas reais, frota saindo do CD, separação de pedido, time de rota, entrega de sábado | Reels + stories · 2×/semana | Responde "e se atrasar?" com evidência; vira criativo de remarketing |
+| **OFERTA** | Jornal da semana: card por produto com preço e regra completa, stories com sticker de link, reel "chegou hoje" | Feed + stories · 2×/semana (ritmo do jornal) | Converte seguidor em conversa; CTA padrão "Chama no WhatsApp e recebe amanhã" |
+| **NICHO** | Custo por porção, rendimento da caixa de mussarela, comparativo de pães, checklist de compra semanal | Carrossel · 1×/semana | Conteúdo que o dono salva e compartilha em grupos de donos |
+
+Regras de produção: preço nunca sem regra visível · rosto e nome nos bastidores · legenda curta com pergunta · stories de oferta sempre com sticker de link.
+
+**c) Prova social e ponte com a mídia:**
+- **Programa de depoimentos:** 5/mês coletados pelos representantes com roteiro de 3 perguntas e autorização de uso; formato card + vídeo curto → criativo de remarketing e conteúdo do perfil.
+- **UGC:** repost de clientes que marcam a distribuidora (com autorização); directs/comentários respondidos em até 4h úteis redirecionando ao WhatsApp comercial.
+- **Públicos (contratado, mídia):** envolvimento com perfil 90d + video views 75% + envolvimento com anúncios → remarketing C5 e base de lookalikes futuros.
+- **Métricas do pilar (leitura mensal nossa):** cliques no link do perfil, conversas originadas do perfil, salvamentos/compartilhamentos da linha Nicho, tamanho dos públicos de engajamento. Seguidores não são meta do contrato (expectativa registrada).
 
 ### 10.3 Monetização (núcleo)
 
