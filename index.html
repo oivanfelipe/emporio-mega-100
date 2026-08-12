@@ -173,6 +173,8 @@
   .quad{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
   .quad .card{padding:18px 20px}
 
+  .scopebadge{display:inline-block;margin-top:16px;padding:6px 14px;border:1.5px solid var(--red);color:var(--red);font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-radius:2px}
+
   table.small th{padding:8px 10px}
   table.small td{font-size:12px;padding:8px 10px;line-height:1.35}
   .minitag{display:inline-block;font-size:11px;font-weight:700;padding:3px 8px;margin:2px 3px 2px 0;border:1px solid var(--hair);border-radius:2px;background:var(--ghost);white-space:nowrap}
@@ -217,7 +219,7 @@
 <body>
 <div id="progress"></div>
 <div id="brandmark">Empório <b>Mega 100</b> · Planejamento de Mídia Paga</div>
-<div id="counter">01 / 32</div>
+<div id="counter">01 / 33</div>
 <div class="navhint">← → para navegar</div>
 
 <div class="deck" id="deck">
@@ -268,7 +270,7 @@
     <div class="card tint">
       <span class="klabel">Demanda ativa</span>
       <h3>Buscas com intenção comercial já existem</h3>
-      <p>"Distribuidora food service", "fornecedor para pizzaria", "onde comprar batata McCain no atacado" — demanda que hoje <b>ninguém da região captura com nicho + condições claras</b>.</p>
+      <p>"Distribuidora food service", "fornecedor para pizzaria", "onde comprar batata McCain no atacado" — demanda que, na amostra analisada, os concorrentes ainda capturam de forma genérica, <b>sem comunicação paga específica por nicho e condição</b>.</p>
     </div>
     <div class="card tint">
       <span class="klabel">Sazonalidade declarada</span>
@@ -290,7 +292,7 @@
   </div>
   <div class="cols cols-4">
     <div class="card"><span class="klabel">Ticket médio</span><span class="knum">R$ 1.800</span><span class="kcap">pedido mínimo de R$ 350</span></div>
-    <div class="card"><span class="klabel">Recorrência</span><span class="knum">Semanal</span><span class="kcap">um cliente ativo vale ~R$ 7.700/mês</span></div>
+    <div class="card"><span class="klabel">Recorrência</span><span class="knum">Semanal</span><span class="kcap">receita média ~R$ 6.034/mês por cliente ativo (R$ 35 mi ÷ 5.800)</span></div>
     <div class="card"><span class="klabel">Logística</span><span class="knum">D+1</span><span class="kcap">frete grátis em todo SP · entrega seg–sáb</span></div>
     <div class="card alert"><span class="klabel">Mídia paga</span><span class="knum">R$ 0</span><span class="kcap">nenhum histórico de tráfego pago para a distribuidora</span></div>
   </div>
@@ -305,7 +307,7 @@
       <span class="klabel">Achado · Site</span>
       <h3>Institucional, desatualizado e sem conversão</h3>
       <p>Posicionamento correto no título e catálogo por categorias, mas <b>formulários e contatos desativados</b> após histórico de invasões (~5 sites).</p>
-      <p><b>Implicação:</b> o site não pode ser destino de campanha. O WhatsApp vira o único ponto de conversão.</p>
+      <p><b>Implicação:</b> no estado atual, o site não serve como destino de campanha — precisa de uma página mínima corrigida (com tracking) ou de uma landing page dedicada antes do Google Search entrar no ar.</p>
     </div>
     <div class="card alert">
       <span class="klabel">Achado · Instagram</span>
@@ -348,12 +350,12 @@
     <thead><tr><th>Concorrente</th><th>Porte · desde</th><th>Clientes que atende</th><th>Canais e ações digitais observadas</th></tr></thead>
     <tbody>
       <tr><td><b>Delly's</b></td><td class="num">Nacional, 12 estados · ~190 mil clientes ativos · +20 mil itens</td><td>Restaurantes, padarias, confeitarias, hotéis, supermercados</td><td><b>E-commerce + aplicativo próprio + televendas 0800</b>; Instagram ativo com ofertas e receitas; parcerias de marca (Unilever, McCain, Heinz, Seara, Nestlé)</td></tr>
-      <tr><td><b>PMG</b></td><td class="num">Líder em SP · desde 1995 · +20 mil estabelecimentos · 280 veículos refrigerados</td><td>Pizzarias, padarias, churrascarias, bares, cozinhas industriais, hospitais</td><td>Loja física (Santo Amaro) + <b>e-commerce</b>; Instagram oficial ativo; <b>rede de representantes com sites regionais próprios</b> fazendo SEO local</td></tr>
-      <tr><td><b>Mega G</b></td><td class="num">SP, MG e RJ · desde 2005 · ~20 mil clientes · 250 veículos · 600 mil entregas/ano</td><td>Pizzarias, padarias, churrascarias, hotéis, restaurantes, mercados</td><td>Site institucional com catálogo; <b>marca própria (private label) para pizzarias e padarias</b>; presença social moderada</td></tr>
-      <tr><td><b>Apetito Foods</b></td><td class="num">SP capital · +10 anos</td><td>Food service com foco em proteínas e carnes</td><td>Instagram e Facebook ativos com ofertas de produto; comunicação centrada em preço</td></tr>
-      <tr><td><b>Sansul</b></td><td class="num">SP</td><td>Food service geral</td><td>Posicionamento de curadoria e atendimento consultivo humano; presença digital discreta</td></tr>
-      <tr><td><b>Multifoods</b></td><td class="num">SP · desde 1983</td><td>Food service com foco em carnes</td><td>Presença digital mínima; força no relacionamento tradicional</td></tr>
-      <tr><td><b>BID · Fênix</b></td><td class="num">citados pelo cliente</td><td>—</td><td>Sem presença digital relevante localizada em verificação pública — <b>mapear na Ads Library na Fase 1</b></td></tr>
+      <tr><td><b>PMG</b></td><td class="num">Líder em SP · desde 1995 · +20 mil estabelecimentos · 280 veículos refrigerados</td><td>Pizzarias, padarias, churrascarias, bares, cozinhas industriais, hospitais</td><td>Loja física (Santo Amaro) + presença digital institucional (site + canal de representante regional); Instagram oficial ativo</td></tr>
+      <tr><td><b>Mega G</b></td><td class="num">SP, MG e RJ · desde 2005 · ~20 mil clientes · 250 veículos</td><td>Pizzarias, padarias, churrascarias, hotéis, restaurantes, mercados</td><td>Site com catálogo e <b>loja online</b>; páginas segmentadas por pizzarias e hamburguerias; presença social moderada</td></tr>
+      <tr><td><b>Apetito Foods</b></td><td class="num">SP capital · +10 anos</td><td>Food service com foco em proteínas e carnes</td><td>Instagram e Facebook ativos com ofertas de produto</td></tr>
+      <tr><td><b>Sansul</b></td><td class="num">SP</td><td>Food service geral</td><td>Presença digital discreta; poucos dados públicos disponíveis para avaliar posicionamento</td></tr>
+      <tr><td><b>Multifoods</b></td><td class="num">SP · desde 1983</td><td>Food service com foco em carnes</td><td>Presença digital mínima; sem materiais públicos suficientes para avaliar posicionamento</td></tr>
+      <tr><td><b>BID · Fênix</b></td><td class="num">citados pelo cliente</td><td>—</td><td>Concorrentes citados pelo cliente, <b>ainda sem validação pública</b> — mapear na Ads Library na Fase 1</td></tr>
       <tr><td>Indiretos: <b>Atacadão · Assaí</b></td><td class="num">nacionais</td><td>Autosserviço — o dono do negócio se desloca e transporta</td><td>Mídia massiva de varejo, sem atendimento food service dedicado</td></tr>
     </tbody>
   </table>
@@ -362,12 +364,12 @@
 <!-- 08 CONCORRENTES — AÇÕES E OPORTUNIDADE -->
 <section class="slide">
   <p class="eyebrow">02 · Concorrência — o que fazem e o que deixam aberto</p>
-  <h1>Eles investem em <em>plataforma</em>; ninguém domina a <em>captura por nicho</em></h1>
+  <h1>Eles investem em <em>plataforma</em>; a comunicação paga por nicho ainda é <em>genérica</em></h1>
   <div class="cols cols-3">
     <div class="card">
       <span class="klabel">O que aprendemos com eles</span>
       <h3>Playbook dos líderes</h3>
-      <p><b>Delly's:</b> jornada multicanal (app + e-commerce + 0800) e conteúdo de ofertas recorrente.<br><b>PMG:</b> SEO local via rede de representantes com sites próprios.<br><b>Mega G:</b> private label como fidelizador de pizzarias e padarias.</p>
+      <p><b>Delly's:</b> jornada multicanal (app + e-commerce + 0800) e conteúdo de ofertas recorrente.<br><b>PMG:</b> presença institucional consistente (loja física + site + representantes regionais).<br><b>Mega G:</b> loja online e páginas já segmentadas por pizzarias e hamburguerias.</p>
     </div>
     <div class="card">
       <span class="klabel">Onde não conseguimos competir agora</span>
@@ -375,15 +377,15 @@
       <p>E-commerce, app e 20 mil itens exigem investimento fora do escopo. Não disputamos a <b>jornada de autosserviço digital</b> neste ciclo — disputamos a conversa comercial.</p>
     </div>
     <div class="card alert">
-      <span class="klabel">Lacuna que ninguém ocupa</span>
-      <h3>Mídia segmentada por nicho + condição explícita</h3>
-      <p>Nenhum player comunica de forma dedicada para <b>pizzaria e hamburgueria</b> com regras claras de preço, mínimo, frete e prazo no anúncio. A comunicação deles é genérica: "tudo para food service".</p>
+      <span class="klabel">Espaço de diferenciação identificado</span>
+      <h3>Comunicação paga por nicho, com condição explícita</h3>
+      <p>MegaG já organiza parte do catálogo por pizzarias/hamburguerias e a PMG declara atendimento a esses segmentos — mas, na amostra analisada, nenhum concentra a <b>comunicação paga</b> por nicho com regras claras de preço, mínimo, frete e prazo no anúncio. O espaço está em executar isso de forma mais específica, não em ser o único a fazer.</p>
     </div>
   </div>
   <div class="cols cols-2">
     <div class="card tint">
       <span class="klabel">Consequência para a estratégia</span>
-      <p>Enquanto os líderes empurram o comprador para <b>plataformas com cadastro e jornada longa</b>, nós encurtamos: anúncio de oferta com regra completa → WhatsApp → atendimento humano em minutos. É a arma de quem tem 36 pessoas de telemarketing e os concorrentes não usam.</p>
+      <p>Enquanto os líderes concentram parte da jornada em app/e-commerce com cadastro, a aposta aqui é encurtar o caminho: anúncio com regra completa → WhatsApp → atendimento comercial direto pelos 36 telemarketing. O ganho real depende de definirmos um <b>SLA de resposta</b> para leads digitais — hoje ainda não existe.</p>
     </div>
     <div class="card tint">
       <span class="klabel">Argumentos de comparação direta</span>
@@ -422,6 +424,7 @@
         <li>Marca mais associada às cestas do que à distribuição food service</li>
         <li><b>SLA de 24–48h</b> para atender novos leads</li>
         <li>Atribuição de venda depende só do início da conversa no WhatsApp</li>
+        <li>Dependência de insumos e aprovações do cliente (criativos, aviso de ofertas) pode atrasar a resposta à demanda gerada</li>
       </ul>
     </div>
     <div class="card tint">
@@ -429,9 +432,9 @@
       <h3>Oportunidades</h3>
       <ul class="bullets">
         <li>Demanda ativa de busca <b>não capturada</b> (distribuidora food service, fornecedor pizzaria/hamburgueria)</li>
-        <li>Nenhum concorrente comunica por nicho com condição logística explícita</li>
+        <li>Comunicação paga por nicho, com condição logística explícita, ainda é pouco explorada pelos concorrentes analisados</li>
         <li><b>4.000 clientes inativos</b> disponíveis para reativação</li>
-        <li>Cidades e regiões do estado ainda pouco atendidas</li>
+        <li>Cidades e regiões do estado ainda pouco atendidas (declarado pelo cliente, lista de detalhe a confirmar)</li>
         <li>Produtos de marca forte funcionam como porta de entrada de baixo CAC</li>
       </ul>
     </div>
@@ -442,7 +445,6 @@
         <li>Concorrentes tradicionais (<b>PMG, Delly's, Mega G</b>) com relacionamento consolidado — alguns já com e-commerce/app próprios</li>
         <li>Resistência natural do comprador em trocar de fornecedor</li>
         <li>Atacadão e Assaí como alternativa de autosserviço</li>
-        <li>Dependência de terceiros (criativos, aviso de ofertas) pode atrasar a resposta à demanda gerada</li>
       </ul>
     </div>
   </div>
@@ -452,12 +454,12 @@
 <!-- 10 SWOT — CRUZAMENTO -->
 <section class="slide">
   <p class="eyebrow">02 · Diagnóstico — Cruzamento estratégico (TOWS)</p>
-  <h1>A urgência real não é vender mais — é corrigir Instagram e SLA <em>antes do primeiro clique</em></h1>
+  <h1>A urgência real não é vender mais — é resolver <em>destino, SLA e Instagram</em> antes do primeiro clique</h1>
   <div class="quad">
     <div class="card tint">
       <span class="klabel">Forças × Oportunidades · Ofensiva</span>
-      <h3>Usar a máquina comercial para capturar a lacuna de nicho</h3>
-      <p>A estrutura comercial pronta (36 telemarketing, entrega D+1) permite responder rápido à demanda ativa que a mídia vai captar — e usar McCain, Bem Brasil e Heinz como porta de entrada de baixo CAC para conquistar a lacuna de nicho que nenhum concorrente ocupa.</p>
+      <h3>Usar a estrutura comercial para ocupar o espaço de diferenciação</h3>
+      <p>A estrutura comercial existente (36 telemarketing, entrega D+1) permite responder à demanda ativa que a mídia vai captar — e usar McCain, Bem Brasil e Heinz como porta de entrada de baixo CAC para uma comunicação por nicho mais específica do que a dos concorrentes.</p>
     </div>
     <div class="card tint">
       <span class="klabel">Forças × Ameaças · Defesa</span>
@@ -472,7 +474,7 @@
     <div class="card alert">
       <span class="klabel">Fraquezas × Ameaças · Alerta crítico</span>
       <h3>O SLA de atendimento é a maior vulnerabilidade</h3>
-      <p>Enquanto Delly's responde por app e PMG por e-commerce, um lead nosso que espera 24–48h migra para quem atende na hora. Resolver isso vem <b>antes</b> do lançamento das campanhas.</p>
+      <p>Enquanto a Delly's responde por aplicativo próprio, um lead nosso que espera 24–48h corre o risco de esfriar e buscar outra opção. Resolver o SLA — e o destino do Google Search — vem <b>antes</b> do lançamento das campanhas.</p>
     </div>
   </div>
   <p class="footnote">O cruzamento (TOWS) transforma a matriz em decisão: cada quadrante já aparece refletido nos pilares de Aquisição, Engajamento e nos Riscos e dependências mais adiante.</p>
@@ -493,15 +495,15 @@
       <h3>Atribuição frágil via WhatsApp</h3>
       <p>Venda reconhecida só pelo início da conversa. Sem devolutiva comercial (cadastro → pedido → valor), <b>não existe CAC real</b> — só custo por conversa.</p>
     </div>
-    <div class="card tint">
-      <span class="klabel">Oportunidade</span>
-      <h3>Demanda ativa sem concorrência qualificada</h3>
-      <p>Buscas por categoria e por marcas (McCain, Bem Brasil, Heinz, mussarela) prontas para captura com investimento baixo e intenção alta.</p>
+    <div class="card alert">
+      <span class="klabel">Gargalo crítico</span>
+      <h3>Sem destino pronto para o Google Search</h3>
+      <p>WhatsApp funciona como destino do Meta, mas o Search precisa de uma <b>página funcional com tracking</b> — hoje não existe. Decisão de lançamento: landing page dedicada como destino-alvo (cliente cria ou contrata à parte); página mínima do site atual como opção temporária para não atrasar o início.</p>
     </div>
     <div class="card tint">
       <span class="klabel">Oportunidade</span>
-      <h3>Economia do negócio favorece o CAC</h3>
-      <p>Ticket R$ 1.800 com recompra semanal: a margem da <b>primeira compra (R$ 270–414)</b> já cobre um CAC de até ~R$ 400. Cada cliente retido vale ~R$ 7.700/mês.</p>
+      <h3>Demanda ativa com resposta paga ainda pouco específica</h3>
+      <p>Buscas por categoria e por marcas (McCain, Bem Brasil, Heinz, mussarela) seguem com investimento baixo e intenção alta — e a margem informada (15–23%, tipo a confirmar) já sustenta um CAC conservador <b>abaixo de R$ 270</b> na primeira compra.</p>
     </div>
   </div>
 </section>
@@ -512,9 +514,9 @@
   <h1>Validar a aquisição digital como canal <em>mensurável</em> de novos clientes food service</h1>
   <p class="lede">Gerar conversas comerciais qualificadas no WhatsApp para o telemarketing — prioridade <b>pizzarias e hamburguerias de SP</b> — e construir em 90 dias os indicadores que sustentem a decisão de escalar.</p>
   <div class="cols cols-4">
-    <div class="card tint"><span class="klabel">Fundamento 01</span><p><b>Demanda ativa existe</b> e ninguém a captura com nicho + condições claras.</p></div>
-    <div class="card tint"><span class="klabel">Fundamento 02</span><p><b>LTV semanal alto</b> paga o CAC já na primeira compra.</p></div>
-    <div class="card tint"><span class="klabel">Fundamento 03</span><p><b>Máquina comercial pronta</b>: 36 telemarketing para atender o que a mídia gerar.</p></div>
+    <div class="card tint"><span class="klabel">Fundamento 01</span><p><b>Demanda ativa existe</b> e a comunicação paga por nicho, com condições claras, ainda é pouco explorada pelos concorrentes.</p></div>
+    <div class="card tint"><span class="klabel">Fundamento 02</span><p><b>Receita recorrente potencial</b> (~R$ 6 mil/cliente/mês) sustenta o CAC ao longo do relacionamento — não só na 1ª compra.</p></div>
+    <div class="card tint"><span class="klabel">Fundamento 03</span><p><b>Estrutura comercial existente</b>: 36 telemarketing prontos, mas o fluxo de leads digitais ainda precisa de responsável e SLA específicos.</p></div>
     <div class="card tint"><span class="klabel">Fundamento 04</span><p><b>Estágio V1</b>: verba controlada, foco em indicadores, escala só validada.</p></div>
   </div>
   <p class="footnote">A meta global de <b>10.000 clientes ativos até dez/2026</b> (~840 ativações/mês) é meta da empresa, alimentada por todos os canais. Com verba de ~R$ 3.972/mês, a mídia contribui com uma fração validada — estimada em 12–35 primeiros pedidos/mês neste primeiro ciclo.</p>
@@ -530,7 +532,7 @@
         <h3>P1 · Rafael, dono de hamburgueria artesanal</h3>
         <p class="psub">28–45 anos · opera a casa e decide as compras sozinho · resolve tudo pelo WhatsApp, geralmente depois do fechamento</p>
       </div>
-      <div class="pstat"><span class="k">Compra</span><span class="v">Semanal, ticket R$ 800–2.500</span></div>
+      <div class="pstat"><span class="k">Compra</span><span class="v">Semanal · ticket a validar por segmento no ERP</span></div>
       <div class="pstat"><span class="k">Itens-chave</span><span class="v">Batata, pão, cheddar, molhos, proteínas</span></div>
       <div class="pstat"><span class="k">Canal de decisão</span><span class="v">WhatsApp · indicação de outros donos</span></div>
       <div class="pstat"><span class="k">Variações do perfil</span><span class="v">Artesanal · dark kitchen · rede local</span></div>
@@ -542,9 +544,10 @@
       <div class="pcard"><h4>Jornada e consumo de informação</h4><p>Gatilho: preço subiu ou fornecedor falhou → pergunta em <b>grupos de WhatsApp de donos</b> → pesquisa marca/produto no Google → compara 2–3 cotações → testa com um <b>pedido pequeno</b> antes de migrar. Instagram: segue perfis de food service e fornecedores.</p></div>
       <div class="pcard"><h4>Fatores de decisão</h4><p>1º <b>confiabilidade de entrega</b> · 2º custo total do pedido (não o unitário) · 3º marcas reconhecidas · 4º facilidade de pedir sem sair da operação.</p></div>
       <div class="pcard"><h4>Gatilhos que convertem</h4><p><b>Kit hamburgueria com preço fechado</b> (batata + pão Artbread + cheddar + molhos Heinz), entrega D+1, mínimo R$ 350 — cabe num pedido de teste.</p></div>
-      <div class="pcard wide"><h4>Como falamos com ele</h4><p><b>Search:</b> "fornecedor para hamburgueria", "batata mccain atacado". <b>Meta:</b> criativo de kit com regras completas, tom direto de dono para dono. <b>CTA:</b> "Chama no WhatsApp e recebe amanhã" — resposta em minutos, não em dias.</p></div>
+      <div class="pcard wide"><h4>Como falamos com ele</h4><p><b>Search:</b> "fornecedor para hamburgueria", "batata mccain atacado". <b>Meta:</b> criativo de kit com regras completas, tom direto de dono para dono. <b>CTA:</b> "Já é cliente? Peça até 18h59 e receba no dia seguinte. Novo por aqui? Fale com a gente e consulte prazo para sua região" — diferencia cadastrado de novo lead.</p></div>
     </div>
   </div>
+  <p class="footnote">Proto-persona estratégica construída a partir do briefing e de hipóteses de comportamento do setor — <b>a validar</b> com dados de campanha, entrevistas e equipe comercial. Idade, ticket e jornada são estimativas de trabalho, não dados confirmados pelo cliente.</p>
 </section>
 
 <!-- 14 PERSONA P2 -->
@@ -557,7 +560,7 @@
         <h3>P2 · Antônio, dono / comprador de pizzaria</h3>
         <p class="psub">35–60 anos · negócio familiar ou rede local de delivery · compra é decisão de margem: a mussarela é o maior custo da operação</p>
       </div>
-      <div class="pstat"><span class="k">Compra</span><span class="v">Semanal, ticket R$ 1.500–4.000</span></div>
+      <div class="pstat"><span class="k">Compra</span><span class="v">Semanal · ticket a validar por segmento no ERP</span></div>
       <div class="pstat"><span class="k">Itens-chave</span><span class="v">Mussarela, calabresa, molhos, farinha, embalagens</span></div>
       <div class="pstat"><span class="k">Canal de decisão</span><span class="v">Telefone e WhatsApp · vendedor de confiança</span></div>
       <div class="pstat"><span class="k">Variações do perfil</span><span class="v">Bairro · premium · delivery · rede local</span></div>
@@ -572,6 +575,7 @@
       <div class="pcard wide"><h4>Como falamos com ele</h4><p><b>Search:</b> "distribuidora de mussarela", "fornecedor para pizzaria". <b>Meta:</b> criativo de preço do queijo com regra de volume explícita, prova de entrega. <b>CTA:</b> "Peça a tabela da semana no WhatsApp" — e o telemarketing liga em seguida.</p></div>
     </div>
   </div>
+  <p class="footnote">Proto-persona estratégica construída a partir do briefing e de hipóteses de comportamento do setor — <b>a validar</b> com dados de campanha, entrevistas e equipe comercial. Idade, ticket e jornada são estimativas de trabalho, não dados confirmados pelo cliente.</p>
 </section>
 
 <!-- 15 ESTRATÉGIA -->
@@ -604,7 +608,7 @@
       <tr><td><b>Meta Ads · CTWA</b></td><td>Gerar demanda por nicho com ofertas do jornal</td><td>P1 + P2 · consideração</td><td class="num">2</td><td><span class="pill on">Contratado</span></td></tr>
       <tr><td><b>Meta · Remarketing</b></td><td>Reimpactar engajados e conversas sem pedido</td><td>P1 + P2 · comparação</td><td class="num">3</td><td><span class="pill on">Contratado</span></td></tr>
       <tr><td><b>WhatsApp comercial</b></td><td>Destino único de conversão das campanhas</td><td>todas</td><td>—</td><td><span class="pill cli">Operação do cliente</span></td></tr>
-      <tr><td>Landing page</td><td>Destino alternativo com formulário e tracking</td><td>—</td><td>—</td><td><span class="pill rec">Recomendação</span></td></tr>
+      <tr><td>Landing page</td><td><b>Destino-alvo do Google Search</b> — formulário, tracking e contexto completo da oferta</td><td>P1 + P2 · intenção comercial</td><td>—</td><td><span class="pill rec">Dependência do Search</span></td></tr>
       <tr><td>Social orgânico</td><td>Prova social e sustentação da marca distribuidora</td><td>—</td><td>—</td><td><span class="pill rec">Recomendação</span></td></tr>
       <tr><td>CRM · reativação de base</td><td>Retenção e reativação dos 4.000 inativos</td><td>—</td><td>—</td><td><span class="pill rec">Recomendação</span></td></tr>
     </tbody>
@@ -614,27 +618,28 @@
 <!-- 17 PILAR AQUISIÇÃO 1/3 — GOOGLE -->
 <section class="slide">
   <p class="eyebrow">Pilar 01 · Aquisição — Google Ads · contratado</p>
-  <h1>Google: duas campanhas Search para <em>colher a demanda que já existe</em></h1>
+  <h1>Google: lançamento concentrado em <em>uma campanha</em> — separa por sinal, não por ambição</h1>
   <div class="cols cols-2">
     <div class="card alert">
-      <span class="klabel">C1 · Categoria e Nicho — R$ 1.300/mês</span>
-      <h3>3 grupos de anúncio, um por intenção</h3>
-      <p><b>Genérico</b> (distribuidora/atacadista food service) · <b>Pizzaria</b> (fornecedor/distribuidora para pizzaria) · <b>Hamburgueria</b> (fornecedor/distribuidora para hamburgueria). Cada grupo com anúncio e oferta do próprio nicho — quem busca "para pizzaria" vê mussarela, não batata.</p>
+      <span class="klabel">C1 · Lançamento (0–30 dias) — R$ 2.180/mês</span>
+      <h3>Uma campanha, dois grupos de anúncio</h3>
+      <p>Grupo <b>Categoria/Nicho</b> (distribuidora food service, fornecedor para pizzaria/hamburgueria) + grupo <b>Marcas/Produtos</b> (McCain, Bem Brasil, Heinz, mussarela, cheddar) na mesma campanha — concentra o sinal de conversão numa verba diária de ~R$ 73.</p>
     </div>
-    <div class="card alert">
-      <span class="klabel">C2 · Marcas e Produtos — R$ 880/mês</span>
-      <h3>Porta de entrada por produto reconhecido</h3>
-      <p>Grupos por marca (McCain, Bem Brasil, Heinz, Artbread) e por produto (mussarela, cheddar, pão de hambúrguer, calabresa). CPC menor, intenção específica: o anúncio responde com preço, regra de volume e entrega D+1.</p>
+    <div class="card tint">
+      <span class="klabel">Arquitetura-alvo · após aprendizado</span>
+      <h3>Separar em 2 campanhas quando houver volume</h3>
+      <p>Quando cada grupo acumular conversões suficientes para otimização própria (referência: ~30 conversões/mês), separar em <b>Categoria/Nicho</b> e <b>Marcas/Produtos</b> — permite lances e leitura independentes por intenção.</p>
     </div>
     <div class="card tint">
       <span class="klabel">Configuração</span>
-      <p>Correspondência <b>exata + frase</b> (sem ampla na largada, sem DSA com o site fora do jogo) · anúncios RSA com condição logística no título ("Entrega em 24h · Frete grátis SP") · extensões de chamada, local e frases de destaque · lances manuais → <b>CPA-alvo após ~30 conversões</b>.</p>
+      <p>Correspondência <b>exata + frase</b> (sem ampla na largada) · anúncios RSA com condição logística no título ("Entrega em 24h · Frete grátis SP") e "consulte condição para sua região" na descrição (variação a partir de ~380 km) · extensões de chamada, local e frases de destaque · lances manuais → <b>CPA-alvo após ~30 conversões</b>.</p>
     </div>
     <div class="card tint">
-      <span class="klabel">Rotina de gestão</span>
-      <p><b>Semanal:</b> revisão dos termos de pesquisa e negativação (vagas, receitas, varejo, cesta básica) · <b>Quinzenal:</b> teste de variações de RSA · <b>Mensal:</b> realocação entre grupos por custo por lead qualificado e leitura por cidade.</p>
+      <span class="klabel">Destino dos anúncios</span>
+      <p>Landing page dedicada como <b>destino-alvo</b> (cliente cria ou contrata à parte) — enquanto não estiver pronta, uma <b>página mínima do site atual</b>, corrigida e com tracking, serve como opção temporária para não atrasar o lançamento.</p>
     </div>
   </div>
+  <p class="footnote"><b>Rotina de gestão:</b> semanal — revisão dos termos de pesquisa e negativação (vagas, receitas, varejo, cesta básica); mensal — realocação entre grupos por custo por lead qualificado e leitura por cidade.</p>
 </section>
 
 <!-- 18 PILAR AQUISIÇÃO 2/3 — PALAVRAS-CHAVE -->
@@ -647,27 +652,27 @@
       <tr>
         <td><b>1 · Categoria</b><br><span class="minitag" style="background:var(--ink);color:#fff;border-color:var(--ink)">prioridade máxima</span></td>
         <td><span class="minitag">distribuidora food service</span><span class="minitag">atacadista food service</span><span class="minitag">distribuidora de alimentos para restaurante</span><span class="minitag">distribuidora de alimentos sp</span></td>
-        <td>Transacional · P1 + P2</td><td>Fundo de funil puro: quem busca já quer um fornecedor. C1, correspondência exata + frase.</td>
+        <td>Transacional · P1 + P2</td><td>Fundo de funil puro: quem busca já quer um fornecedor. C1, grupo Categoria/Nicho, correspondência exata + frase.</td>
       </tr>
       <tr>
         <td><b>2 · Nicho</b><br><span class="minitag" style="background:var(--ink);color:#fff;border-color:var(--ink)">prioridade máxima</span></td>
         <td><span class="minitag">fornecedor para pizzaria</span><span class="minitag">distribuidora para pizzaria</span><span class="minitag">fornecedor para hamburgueria</span><span class="minitag">distribuidora para hamburgueria</span></td>
-        <td>Transacional · P1 ou P2</td><td>Conecta busca ao anúncio 100% do segmento — grupos separados por nicho em C1, com anúncio e oferta próprios.</td>
+        <td>Transacional · P1 ou P2</td><td>Conecta busca ao anúncio 100% do segmento — dentro do grupo Categoria/Nicho do C1, com anúncio e oferta próprios por segmento.</td>
       </tr>
       <tr>
         <td><b>3 · Marca</b></td>
         <td><span class="minitag">batata mccain atacado</span><span class="minitag">onde comprar batata mccain</span><span class="minitag">distribuidor bem brasil</span><span class="minitag">fornecedor heinz</span><span class="minitag">pão de hambúrguer artbread</span></td>
-        <td>Comercial · P1</td><td>Porta de entrada por produto reconhecido (C2): CPC menor, intenção específica, abre a primeira compra.</td>
+        <td>Comercial · P1</td><td>Porta de entrada por produto reconhecido — grupo Marcas/Produtos do C1: CPC menor, intenção específica, abre a primeira compra.</td>
       </tr>
       <tr>
         <td><b>4 · Produto</b></td>
         <td><span class="minitag">mussarela atacado preço</span><span class="minitag">distribuidora de mussarela</span><span class="minitag">cheddar fatiado atacado</span><span class="minitag">calabresa atacado</span><span class="minitag">pão de hambúrguer atacado</span></td>
-        <td>Comercial · P2 + P1</td><td>Captura a dor de custo (queijo, cheddar) em C2 — anúncio responde com regra de volume clara.</td>
+        <td>Comercial · P2 + P1</td><td>Captura a dor de custo (queijo, cheddar) no grupo Marcas/Produtos do C1 — anúncio responde com regra de volume clara.</td>
       </tr>
       <tr>
         <td><b>5 · Local</b></td>
         <td><span class="minitag">distribuidora de alimentos em campinas</span><span class="minitag">fornecedor food service sorocaba</span><span class="minitag">distribuidora litoral sp</span></td>
-        <td>Transacional · regiões-alvo</td><td>Ativado por onda conforme regiões prioritárias definidas pelo cliente — cobre cidades pouco atendidas.</td>
+        <td>Transacional · regiões-alvo</td><td>Ativado por onda dentro do C1, conforme regiões prioritárias definidas pelo cliente.</td>
       </tr>
     </tbody>
   </table>
@@ -677,34 +682,35 @@
 <!-- 19 PILAR AQUISIÇÃO 3/3 — META + GEO -->
 <section class="slide">
   <p class="eyebrow">Pilar 01 · Aquisição — Meta Ads e geossegmentação · contratado</p>
-  <h1>Meta: gerar demanda <em>nicho a nicho</em>, com oferta do jornal no WhatsApp</h1>
+  <h1>Meta: <em>uma campanha</em> de lançamento, com conjuntos por segmento</h1>
   <div class="cols cols-2">
     <div class="card alert">
-      <span class="klabel">C3 · CTWA Hamburguerias — R$ 700/mês</span>
-      <h3>Kit fechado que resolve o cardápio</h3>
-      <p>Criativos de <b>kit batata + pão Artbread + cheddar + molhos Heinz</b> com preço e regras completas. Segmentação: interesses de food service, hamburgueria e pequenos negócios + geo SP. Formatos 1:1, 4:5 e 9:16 (feed, stories, reels) do Ítalo com nosso briefing semanal.</p>
+      <span class="klabel">C2 · Lançamento (0–30 dias) — R$ 1.792/mês</span>
+      <h3>Um CTWA, dois conjuntos de anúncio</h3>
+      <p>Conjunto <b>Hamburguerias</b> (kit batata + pão Artbread + cheddar + molhos Heinz) + conjunto <b>Pizzarias</b> (mussarela como isca, regra de volume visível) na mesma campanha. A verba que seria do remarketing (R$ 392) fica <b>redistribuída aqui</b> até existir audiência própria.</p>
     </div>
-    <div class="card alert">
-      <span class="klabel">C4 · CTWA Pizzarias — R$ 700/mês</span>
-      <h3>Mussarela como isca de troca</h3>
-      <p>Criativo de <b>preço do queijo com regra de volume visível</b> ("a partir de X caixas") + prova de entrega. A conversa abre com a tabela da semana — o argumento que faz o dono de pizzaria cotar.</p>
+    <div class="card tint">
+      <span class="klabel">Arquitetura-alvo · após audiência mínima</span>
+      <h3>Separar por segmento e ativar o remarketing (C5)</h3>
+      <p>Quando cada conjunto tiver volume próprio de engajados, visitantes ou conversas identificadas: separar Hamburguerias e Pizzarias em campanhas distintas e realocar R$ 392/mês para o C5 de remarketing.</p>
     </div>
     <div class="card tint">
       <span class="klabel">Rotina de testes</span>
-      <p><b>3 variações de criativo por campanha</b>, teste A/B quinzenal (hipótese de mensagem: preço × prazo × variedade), renovação de oferta a cada edição do jornal, pausa imediata quando Victor avisar fim de estoque/condição.</p>
+      <p><b>3 variações de criativo por conjunto</b>, teste A/B quinzenal (hipótese de mensagem: preço × prazo × variedade), renovação de oferta a cada edição do jornal, pausa imediata quando o cliente avisar fim de estoque/condição. Criativos sempre com "consulte condição para sua região" quando o preço variar por distância.</p>
     </div>
     <div class="card tint">
       <span class="klabel">Geossegmentação em ondas</span>
-      <p>Estado inteiro na largada → <b>ondas de prioridade</b> nas cidades pouco atendidas (lista do cliente): ajuste de lance por região no Meta + cluster local de Search ativado onda a onda. Leitura mensal de custo por conversa por cidade decide a próxima onda.</p>
+      <p>Estado inteiro na largada → <b>ondas de prioridade</b> nas cidades pouco atendidas (declaradas pelo cliente, lista de detalhe a confirmar): ajuste de lance por região no Meta + cluster local de Search ativado onda a onda. Leitura mensal de custo por conversa por cidade decide a próxima onda.</p>
     </div>
   </div>
-  <p class="footnote"><b>Entregas da mídia no pilar:</b> contas novas separadas da Mega Cestas · pesquisa no Planejador de Palavras-Chave · redação de todos os anúncios · briefings criativos ao Ítalo (formato, quantidade, hipótese, CTA) · gestão diária de verba e lances.</p>
+  <p class="footnote"><b>Entregas da mídia no pilar:</b> contas novas separadas da Mega Cestas · pesquisa no Planejador de Palavras-Chave · redação de todos os anúncios · briefings criativos ao designer do cliente (formato, quantidade, hipótese, CTA) · gestão diária de verba e lances.</p>
 </section>
 
 <!-- 20 PILAR ENGAJAMENTO 1/3 — FUNDAÇÃO DO PERFIL -->
 <section class="slide">
   <p class="eyebrow">Pilar 02 · Engajamento 1/3 — fundação do perfil</p>
   <h1>Antes de postar: o perfil precisa <em>confirmar o que o anúncio promete</em></h1>
+  <p class="scopebadge">Recomendação estratégica — execução e operação do cliente — fora do escopo contratado</p>
   <p class="lede">Quem clica no anúncio confere o Instagram antes de chamar no WhatsApp. Hoje o perfil nega a promessa: sem gestão, sem posicionamento de distribuidora e com o link apontando para as cestas. Checklist de correção — <b>execução do cliente, semana 1, com nosso roteiro</b>:</p>
   <div class="cols cols-3">
     <div class="card alert">
@@ -733,6 +739,7 @@
 <section class="slide">
   <p class="eyebrow">Pilar 02 · Engajamento 2/3 — linhas editoriais e cadência</p>
   <h1>Três linhas editoriais, uma cadência <em>possível de sustentar</em></h1>
+  <p class="scopebadge">Recomendação estratégica — execução e operação do cliente — fora do escopo contratado</p>
   <table class="small">
     <thead><tr><th style="width:17%">Linha</th><th style="width:31%">O que mostra</th><th style="width:15%">Formato · cadência</th><th>Função no funil</th></tr></thead>
     <tbody>
@@ -746,7 +753,7 @@
         <td><b>OFERTA</b><br><span class="minitag">conversão</span></td>
         <td>Jornal da semana adaptado: card por produto com preço e regra completa, stories com sticker de link para o WhatsApp, reel "chegou hoje no CD"</td>
         <td>Feed + stories · <b>2×/semana</b> (ritmo do jornal)</td>
-        <td>Transforma o seguidor em conversa comercial. Toda arte com CTA padrão: <b>"Chama no WhatsApp e recebe amanhã"</b>.</td>
+        <td>Transforma o seguidor em conversa comercial. CTA padrão: <b>"Já é cliente? Peça até 18h59 e receba amanhã. Novo por aqui? Fale com a gente e consulte prazo para sua região."</b></td>
       </tr>
       <tr>
         <td><b>NICHO</b><br><span class="minitag">autoridade</span></td>
@@ -763,6 +770,7 @@
 <section class="slide">
   <p class="eyebrow">Pilar 02 · Engajamento 3/3 — prova social e ponte com a mídia</p>
   <h1>O engajamento não é vaidade: ele <em>abastece os públicos</em> da mídia paga</h1>
+  <p class="scopebadge">Recomendação estratégica — execução e operação do cliente — fora do escopo contratado</p>
   <div class="cols cols-2">
     <div class="card alert">
       <span class="klabel">Programa de depoimentos · cliente + mídia</span>
@@ -810,6 +818,7 @@
       <p>Árvore de respostas-padrão com o telemarketing · calendário semanal de ofertas com Victor · acordo de devolutiva (lead → cadastro → pedido → valor) que transforma conversa em <b>CAC mensurável</b>.</p>
     </div>
   </div>
+  <p class="footnote">Fricções 1 e 2 são entrega da mídia; fricções 3 e 4 são operação do cliente — a mídia recomenda os campos e o fluxo necessários, não executa o atendimento nem o cadastro.</p>
 </section>
 
 <!-- 24 PILAR MONETIZAÇÃO 2/2 — CONVERSA QUE FECHA -->
@@ -839,7 +848,7 @@
 <!-- 25 PILAR RETENÇÃO 1/2 — CONTRATADO -->
 <section class="slide">
   <p class="eyebrow">Pilar 04 · Retenção 1/2 — o que a mídia entrega (contratado)</p>
-  <h1>Retenção: cada cliente vale ~R$ 7.700/mês — <em>perder um custa 20 aquisições</em></h1>
+  <h1>Retenção: a recompra aumenta <em>significativamente</em> o retorno da aquisição</h1>
   <div class="cols cols-2">
     <div class="card alert">
       <span class="klabel">C5 · Remarketing de recuperação — R$ 392/mês</span>
@@ -852,8 +861,8 @@
       <p>Envolvimento com perfil e anúncios (90 dias) · visualização de vídeo 75% · listas de conversas por status (sem pedido / cadastrado sem compra), atualizadas pela devolutiva do telemarketing. <b>Quanto melhor a devolutiva, mais preciso o remarketing.</b></p>
     </div>
     <div class="card tint" style="grid-column:1/-1">
-      <span class="klabel">A matemática que justifica o pilar</span>
-      <p>Ticket R$ 1.800 × ~4,3 compras/mês ⇒ <b>~R$ 7.700/mês por cliente ativo</b>. Recuperar uma conversa esfriada custa centavos por impressão; conquistar um cliente novo custa R$ 124–331 de CAC projetado. Reter e recuperar é sempre o investimento de maior retorno do funil.</p>
+      <span class="klabel">A lógica que justifica o pilar</span>
+      <p>Receita média de <b>~R$ 6.034/mês por cliente ativo</b> (R$ 35 mi ÷ 5.800), com recorrência semanal declarada — a validar por segmento e frequência real no ERP. Recuperar uma conversa esfriada custa centavos por impressão; adquirir um cliente novo custa R$ 124–331 de CAC projetado (seção Projeção). Reter e recuperar tende a ser o investimento de maior retorno do funil — a confirmar com dados reais de churn e tempo médio de retenção.</p>
     </div>
   </div>
 </section>
@@ -885,18 +894,15 @@
 <!-- 27 PLANO DE MÍDIA -->
 <section class="slide">
   <p class="eyebrow">04 · Plano de mídia</p>
-  <h1>R$ 3.972/mês distribuídos onde a intenção é maior</h1>
+  <h1>R$ 3.972/mês concentrados no lançamento, <em>escalando por sinal</em></h1>
   <table>
-    <thead><tr><th>Campanha</th><th>Conteúdo</th><th>Verba/mês</th><th>Papel</th></tr></thead>
+    <thead><tr><th>Campanha</th><th>Conteúdo</th><th>Verba/mês</th><th>Fase</th></tr></thead>
     <tbody>
-      <tr><td><b>C1 · Google Search — Categoria</b></td><td>"distribuidora food service", "fornecedor para pizzaria/hamburgueria" — grupos por nicho</td><td class="num"><b>R$ 1.300</b></td><td>capturar demanda de fundo de funil</td></tr>
-      <tr><td><b>C2 · Google Search — Marcas &amp; Produtos</b></td><td>McCain, Bem Brasil, Heinz, mussarela, cheddar, pão de hambúrguer</td><td class="num"><b>R$ 880</b></td><td>porta de entrada por produto reconhecido</td></tr>
-      <tr><td><b>C3 · Meta CTWA — Hamburguerias</b></td><td>kit batata + pão + cheddar + molhos, ofertas do jornal</td><td class="num"><b>R$ 700</b></td><td>gerar demanda no nicho prioritário</td></tr>
-      <tr><td><b>C4 · Meta CTWA — Pizzarias</b></td><td>mussarela como isca + itens complementares</td><td class="num"><b>R$ 700</b></td><td>gerar demanda no nicho prioritário</td></tr>
-      <tr><td><b>C5 · Meta — Remarketing</b></td><td>engajados e conversas sem pedido</td><td class="num"><b>R$ 392</b></td><td>recuperar consideração</td></tr>
+      <tr><td><b>C1 · Google — Lançamento</b></td><td>Grupos Categoria/Nicho + Marcas/Produtos na mesma campanha</td><td class="num"><b>R$ 2.180</b></td><td>Fase 1 · dia 1</td></tr>
+      <tr><td><b>C2 · Meta WhatsApp — Lançamento</b></td><td>Conjuntos Hamburguerias + Pizzarias na mesma campanha</td><td class="num"><b>R$ 1.792</b></td><td>Fase 1 · dia 1</td></tr>
     </tbody>
   </table>
-  <p class="footnote">Google 55% · Meta 45% na largada; realocação mensal por <b>custo por lead qualificado</b>. Negativações contínuas: vagas/emprego, receitas, consumidor final, varejo, cestas básicas. Distribuição por dia/horário só muda após validação com dados de campanha + ERP.</p>
+  <p class="footnote"><b>Arquitetura-alvo (pós-validação):</b> Google se divide em Categoria/Nicho e Marcas/Produtos; Meta se divide em Hamburguerias e Pizzarias; o remarketing (C5, ~R$ 392) é ativado quando houver audiência suficiente de engajados, visitantes ou conversas identificadas, redistribuindo parte da verba de aquisição. Google 55% · Meta 45% na largada; realocação mensal por <b>custo por lead qualificado</b>. Negativações contínuas: vagas/emprego, receitas, consumidor final, varejo, cestas básicas. Distribuição por dia/horário só muda após validação com dados de campanha + ERP.</p>
 </section>
 
 <!-- 28 EXECUÇÃO -->
@@ -906,15 +912,15 @@
   <div class="timeline">
     <div class="phase hi">
       <span class="ph-n">FASE 01</span><h4>Estruturar</h4><span class="ph-w">semanas 1–2</span>
-      <ul><li>Contas novas Google/Meta separadas da Mega Cestas</li><li>GA4 + GTM + conversões</li><li>WhatsApp oficial com rastreio por campanha</li><li>Kit de criativos com Ítalo · ofertas com Victor</li><li>SLA e planilha de devolutiva com telemarketing</li></ul>
+      <ul><li>Contas novas Google/Meta separadas da Mega Cestas</li><li>Destino do Search: landing page (alvo) ou página mínima do site (temporária) + GA4/GTM</li><li>WhatsApp oficial com rastreio por campanha</li><li>Kit de criativos e ofertas com o cliente</li><li>SLA e planilha de devolutiva com telemarketing</li></ul>
     </div>
     <div class="phase">
       <span class="ph-n">FASE 02</span><h4>Adquirir</h4><span class="ph-w">semanas 3–6</span>
-      <ul><li>Lançamento C1–C4</li><li>Pesquisa de termos + negativação ativa</li><li>Primeiras leituras de custo por conversa</li></ul>
+      <ul><li>Lançamento C1 (Google) + C2 (Meta) — arquitetura concentrada</li><li>Pesquisa de termos + negativação ativa</li><li>Primeiras leituras de custo por conversa</li></ul>
     </div>
     <div class="phase">
       <span class="ph-n">FASE 03</span><h4>Converter</h4><span class="ph-w">semanas 5–8</span>
-      <ul><li>Rotina semanal de feedback de qualidade</li><li>Ajuste de ofertas, criativos e públicos</li><li>Ativação do remarketing (C5)</li></ul>
+      <ul><li>Rotina semanal de feedback de qualidade</li><li>Ajuste de ofertas, criativos e públicos</li><li>Separar campanhas e ativar o remarketing (C5) quando houver audiência mínima</li></ul>
     </div>
     <div class="phase">
       <span class="ph-n">FASE 04</span><h4>Otimizar</h4><span class="ph-w">semanas 9–12</span>
@@ -922,10 +928,10 @@
     </div>
     <div class="phase">
       <span class="ph-n">FASE 05</span><h4>Escalar</h4><span class="ph-w">mês 4+</span>
-      <ul><li>Condicionada a CAC validado</li><li>E à aprovação de verba adicional</li></ul>
+      <ul><li>Condicionada a CAC validado</li><li>E à capacidade de atendimento comprovada (SLA cumprido)</li><li>E à aprovação de verba adicional</li></ul>
     </div>
   </div>
-  <p class="footnote"><b>Lógica das dependências:</b> sem contas separadas e tracking não há mensuração → sem volume não há leitura de qualidade → sem devolutiva não há otimização real → sem indicadores validados não há escala responsável. Cronograma proposto — <b>a validar nesta reunião</b>.</p>
+  <p class="footnote"><b>Lógica das dependências:</b> sem destino funcional e tracking não há Google Search nem mensuração → sem volume não há leitura de qualidade → sem devolutiva não há otimização real → sem indicadores validados e capacidade de atendimento comprovada não há escala responsável. Cronograma proposto — <b>a validar nesta reunião</b>.</p>
 </section>
 
 <!-- 29 MENSURAÇÃO -->
@@ -938,12 +944,32 @@
     <div class="frow"><span class="fl">Leads qualificados</span><div class="fbar" style="width:62%">custo por lead qualificado</div><span class="fv">telemarketing devolve</span></div>
     <div class="frow"><span class="fl">Cadastros aprovados</span><div class="fbar" style="width:44%">custo por cadastro</div><span class="fv">telemarketing devolve</span></div>
     <div class="frow"><span class="fl">Primeiros pedidos</span><div class="fbar red" style="width:30%">CAC + ticket do 1º pedido</div><span class="fv">ERP confirma</span></div>
-    <div class="frow"><span class="fl">Recompra</span><div class="fbar red" style="width:20%">LTV · retenção</div><span class="fv">ERP confirma</span></div>
+    <div class="frow"><span class="fl">Recompra</span><div class="fbar red" style="width:20%">receita recorrente · retenção</div><span class="fv">ERP confirma</span></div>
   </div>
-  <p class="footnote">Instrumentação: mensagem de WhatsApp pré-preenchida com código por campanha · planilha de devolutiva preenchida pelo telemarketing · cruzamento mensal com ERP (WinThor/Máxima). Rotina sugerida (a validar): otimização semanal interna, <b>reunião quinzenal</b> no 1º trimestre, relatório mensal consolidado.</p>
+  <p class="footnote">Instrumentação: mensagem de WhatsApp pré-preenchida com código por campanha · planilha de devolutiva preenchida pelo telemarketing · cruzamento mensal com ERP (WinThor/Máxima). Rotina: otimizações contínuas, acompanhamento por WhatsApp e <b>reunião mensal de resultados</b>, conforme definido no kickoff.</p>
 </section>
 
-<!-- 30 RISCOS -->
+<!-- 30 MENSURAÇÃO — FONTE REAL -->
+<section class="slide">
+  <p class="eyebrow">04 · Mensuração — de onde vem cada dado</p>
+  <h1>Só o ERP confirma venda: Google e Meta medem <em>intenção</em>, não conversão real</h1>
+  <table class="small">
+    <thead><tr><th>Indicador</th><th>Fonte real</th></tr></thead>
+    <tbody>
+      <tr><td>Clique no anúncio</td><td>Google / Meta</td></tr>
+      <tr><td>Clique no WhatsApp</td><td>Site/plataforma, quando houver</td></tr>
+      <tr><td>Conversa iniciada</td><td>Meta ou controle do WhatsApp</td></tr>
+      <tr><td>Lead qualificado</td><td>Telemarketing</td></tr>
+      <tr><td>Cadastro aprovado</td><td>WinThor/TOTVS ou Máxima</td></tr>
+      <tr><td>Primeiro pedido</td><td><b>ERP</b></td></tr>
+      <tr><td>Valor do pedido</td><td><b>ERP</b></td></tr>
+      <tr><td>Recompra</td><td><b>ERP</b></td></tr>
+    </tbody>
+  </table>
+  <p class="footnote">Google pode medir clique no WhatsApp, mas não a conversa real. Sem devolutiva comercial, o que existe é <b>custo por conversa</b> — não CAC. Listas de "conversa sem pedido" exigem atualização manual do cliente, e a recompra só se confirma cruzando com o ERP.</p>
+</section>
+
+<!-- 31 RISCOS -->
 <section class="slide">
   <p class="eyebrow">04 · Riscos e dependências</p>
   <h1>Seis condições fora da mídia decidem o resultado da mídia</h1>
@@ -952,12 +978,12 @@
     <div class="card alert"><span class="klabel">Crítico</span><h3>Devolutiva comercial</h3><p>Sem retorno de cadastros, pedidos e valores, não existe CAC — só custo por conversa.</p></div>
     <div class="card"><span class="klabel">Operacional</span><h3>Ofertas dinâmicas</h3><p>Preços mudam diariamente; dependemos do aviso do Victor para pausar/ajustar anúncios.</p></div>
     <div class="card"><span class="klabel">Operacional</span><h3>Produção criativa</h3><p>Artes com o Ítalo: solicitações em planejamento semanal, urgências em ~24h.</p></div>
-    <div class="card"><span class="klabel">Estrutural</span><h3>Site fora do jogo</h3><p>WhatsApp é o único destino até revisão de segurança, formulário e tracking do site.</p></div>
+    <div class="card alert"><span class="klabel">Crítico</span><h3>Destino do Google Search</h3><p>Depende de landing page (alvo, a criar pelo cliente ou contratada à parte) ou página mínima do site atual (temporária, com tracking). WhatsApp segue como destino principal do Meta.</p></div>
     <div class="card"><span class="klabel">Estrutural</span><h3>Separação da Mega Cestas</h3><p>Contas, públicos e dados 100% apartados para não contaminar posicionamento e remarketing.</p></div>
   </div>
 </section>
 
-<!-- 31 PROJEÇÃO -->
+<!-- 32 PROJEÇÃO -->
 <section class="slide">
   <p class="eyebrow">05 · Projeção</p>
   <h1>Três cenários possíveis — <em>estimativas</em>, não garantias</h1>
@@ -996,21 +1022,22 @@
       </ul>
     </div>
   </div>
-  <p class="footnote"><b>Premissas:</b> CPC Search R$ 2,50–4,50 · custo por conversa Meta R$ 8–18 · qualificação 35–50% · cadastro 40–60% dos qualificados · 1º pedido 40–60% dos cadastros · ticket R$ 1.800. Com recompra semanal e retenção de ~60%, o run-rate incremental ao fim do trimestre fica entre <b>~R$ 55 mil e R$ 150 mil/mês</b>. Validar esses números é o objetivo do ciclo V1.</p>
+  <p class="footnote"><b>Premissas:</b> CPC Search R$ 2,50–4,50 · custo por conversa Meta R$ 8–18 · qualificação 35–50% · cadastro 40–60% dos qualificados · 1º pedido 40–60% dos cadastros · ticket R$ 1.800. As conversas de Google somam clique no WhatsApp com taxa de conversão ainda estimada (sem dado real); as do Meta usam a métrica nativa de conversa — ambas serão recalibradas com volume real na Fase 2. <b>Run-rate (hipótese de alta incerteza):</b> com receita média de R$ 6.034/cliente/mês e retenção de ~60% dos novos clientes, o run-rate incremental ao fim do trimestre ficaria entre <b>~R$ 43 mil (conservador) e R$ 116 mil/mês (otimista)</b> — ainda não sabemos se o cliente adquirido pela mídia repete o comportamento de compra da base atual. Validar isso é o objetivo do ciclo V1.</p>
 </section>
 
-<!-- 32 PRÓXIMOS PASSOS -->
+<!-- 33 PRÓXIMOS PASSOS -->
 <section class="slide">
   <p class="eyebrow">Decisões desta reunião</p>
-  <h1>Sete definições destravam a <em>Fase 01</em></h1>
+  <h1>Oito definições destravam a <em>Fase 01</em></h1>
   <div class="cols cols-2" style="max-width:980px">
-    <div class="card"><h3>1 · Número oficial de WhatsApp</h3><p>+ responsável pelo atendimento e SLA de resposta a novos leads.</p></div>
-    <div class="card"><h3>2 · Devolutiva comercial</h3><p>Acordo sobre a planilha de retorno: leads, cadastros, pedidos e valores.</p></div>
-    <div class="card"><h3>3 · Lista de produtos para pizzarias</h3><p>+ curva ABC atualizada e ofertas iniciais validadas com Victor.</p></div>
-    <div class="card"><h3>4 · Regiões prioritárias</h3><p>Cidades pouco atendidas e restrições logísticas para a geossegmentação.</p></div>
-    <div class="card"><h3>5 · Base de inativos</h3><p>Base legal (LGPD) e envio seguro para públicos personalizados.</p></div>
-    <div class="card"><h3>6 · Cronograma e reuniões</h3><p>Validar fases, entregáveis e a periodicidade quinzenal proposta.</p></div>
-    <div class="card alert" style="grid-column:1/-1"><h3>7 · Kickoff criativo com Ítalo</h3><p>Formatos, variações e regras de oferta do primeiro kit de anúncios — solicitação em planejamento semanal.</p></div>
+    <div class="card"><h3>1 · Número oficial de WhatsApp</h3><p>+ responsável pelo atendimento e SLA de resposta a novos leads (confirmar se 24–48h é prazo de 1ª resposta ou de conclusão do cadastro).</p></div>
+    <div class="card alert"><h3>2 · Destino do Google Search</h3><p>Landing page como alvo — confirmar se o cliente cria ou contrata à parte — e página mínima do site atual como opção temporária.</p></div>
+    <div class="card"><h3>3 · Devolutiva comercial</h3><p>Acordo sobre a planilha de retorno: leads, cadastros, pedidos e valores.</p></div>
+    <div class="card"><h3>4 · Lista de produtos para pizzarias</h3><p>+ curva ABC atualizada (faturamento e margem) e ofertas iniciais validadas com Victor.</p></div>
+    <div class="card"><h3>5 · Regiões prioritárias</h3><p>Cidades com maior e menor penetração, e restrições logísticas para a geossegmentação.</p></div>
+    <div class="card"><h3>6 · Base de inativos</h3><p>Base legal (LGPD) e envio seguro para públicos personalizados.</p></div>
+    <div class="card"><h3>7 · Cronograma e reuniões</h3><p>Validar fases e entregáveis; reunião mensal de resultados conforme kickoff, com checkpoint adicional após o lançamento.</p></div>
+    <div class="card" style="grid-column:1/-1"><h3>8 · Kickoff criativo</h3><p>Formatos, variações e regras de oferta do primeiro kit de anúncios — solicitação em planejamento semanal.</p></div>
   </div>
 </section>
 
